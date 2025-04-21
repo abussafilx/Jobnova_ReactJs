@@ -31,8 +31,8 @@ export default function IndexThree(){
                 <div className="row g-4 position-relative z-1">
                     <div className="col-lg-7 col-md-6 col-12 mt-lg-5">
                         <div className="title-heading">
-                            <h1 className="heading text-white title-dark mb-4">Find a new job and <br/> build career</h1>
-                            <p className="para-desc text-white-50">Find Jobs, Employment & Career Opportunities. Some of the companies we've helped recruit excellent applicants over the years.</p>
+                            <h1 className="heading text-white title-dark mb-4"> Menos tempo a recrutar.  <br/> Mais tempo a produzir.</h1>
+                            <p className="para-desc text-white-50">O Bora ajuda-te a encontrar freelancers de confiança, mesmo em cima da hora.</p>
                             
                             <div className="d-md-flex justify-content-between align-items-center bg-white shadow rounded p-2 mt-4">
                                 <form className="card-body text-start">
@@ -56,7 +56,7 @@ export default function IndexThree(){
                                 </form>
                             </div>
                             <div className="mt-2">
-                                <span className="text-white-50"><span className="text-white">Popular Searches :</span> Designer, Developer, Web, IOS, PHP Senior Engineer</span>
+                                <span className="text-white-50"><span className="text-white">Funções populares :</span> Designer, Developer, Web, IOS, PHP Senior Engineer</span>
                             </div>
                         </div>
                     </div>
@@ -167,9 +167,7 @@ export default function IndexThree(){
                 </div>
             </div>
 
-            <div className="container mt-100 mt-60">
-                <Companies/>
-            </div>
+
 
             <div className="container mt-100 mt-60">
                 <div className="row justify-content-center">

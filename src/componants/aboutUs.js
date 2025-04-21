@@ -40,7 +40,7 @@ export default function AboutUs({containerClass}){
 
                     <div className="col-lg-6 col-md-6">
                         <div className="section-title ms-lg-5">
-                            <h4 className="title mb-3">Millions of jobs. <br/> Find the one that's right for you.</h4>
+                            <h4 className="title mb-3"><strong>A forma mais rápida </strong> <br/> de contratar ou ser contratado para eventos.</h4>
                             <p className="text-muted para-desc mb-0">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
                         
                             <ul className="list-unstyled text-muted mb-0 mt-3">
