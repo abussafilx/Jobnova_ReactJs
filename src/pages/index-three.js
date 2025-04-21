@@ -7,7 +7,7 @@ import heroImg from "../assets/images/hero.jpg"
 import Navbar from "../componants/navbar";
 import Counter from '../componants/counter';
 import AboutUs from '../componants/aboutUs';
-import Companies from '../componants/companies';
+
 import Blog from '../componants/blog';
 import Footer from '../componants/footer';
 import ScrollTop from '../componants/scrollTop';
