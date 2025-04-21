@@ -14,10 +14,10 @@ export default function Navbar({navClass, navLight}){
 
     let [manu , setManu] = useState('');
     let location = useLocation();
-    useEffect(()=>{
-        let current = location.pathname.substring(location.pathname.lastIndexOf('/') + 1)
-        setManu(current)
-    },[location.pathname.substring(location.pathname.lastIndexOf('/') + 1)])
+    useEffect(() => {
+        let current = location.pathname.substring(location.pathname.lastIndexOf('/') + 1);
+        setManu(current);
+    }, [location.pathname]);
 
     useEffect(() => {
         function scrollHandler() {

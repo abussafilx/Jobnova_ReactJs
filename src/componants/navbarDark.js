@@ -16,7 +16,7 @@ export default function NavbarDark(){
     useEffect(()=>{
         let current = location.pathname.substring(location.pathname.lastIndexOf('/') + 1)
         setManu(current)
-    },[location.pathname.substring(location.pathname.lastIndexOf('/') + 1)])
+    },[location.pathname]);
 
     useEffect(() => {
         function scrollHandler() {

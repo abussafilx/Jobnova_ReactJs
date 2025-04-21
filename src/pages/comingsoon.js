@@ -3,28 +3,29 @@ import { Link } from "react-router-dom";
 import bg1 from "../assets/images/hero/bg2.jpg"
 import logo from "../assets/images/logo-icon-80-white.png"
 
-export default function Comingsoom(){
+export default function Comingsoom() {
     let [days, setDays] = useState(0);
     let [hours, setHours] = useState(0);
     let [minutes, setMinutes] = useState(0);
     let [seconds, setSeconds] = useState(0);
-  
+
     let deadline = "December, 31, 2024";
-  
-    let getTime = () => {
-      let time = Date.parse(deadline) - Date.now();
-  
-      setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
-      setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
-      setMinutes(Math.floor((time / 1000 / 60) % 60));
-      setSeconds(Math.floor((time / 1000) % 60));
-    };
-  
+
+    const getTime = useCallback(() => {
+        let time = Date.parse(deadline) - Date.now();
+
+        setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
+        setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
+        setMinutes(Math.floor((time / 1000 / 60) % 60));
+        setSeconds(Math.floor((time / 1000) % 60));
+    }, [deadline]);
+
     useEffect(() => {
-      let interval = setInterval(() => getTime(deadline), 1000);
-  
-      return () => clearInterval(interval);
-    }, []);
+        let interval = setInterval(() => getTime(), 1000);
+
+        return () => clearInterval(interval);
+    }, [getTime]);
+
     return(
         <section className="bg-home d-flex align-items-center" style={{backgroundImage:`url(${bg1})`, backgroundPosition:'top'}}>
             <div className="bg-overlay bg-gradient-overlay"></div>
