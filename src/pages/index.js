@@ -34,8 +34,8 @@ export default function Index(){
                 <div className="row g-4 align-items-center">
                     <div className="col-md-6">
                         <div className="title-heading">
-                            <h1 className="heading text-white fw-bold">Get hired <br/> by the popular <br/> candidates.</h1>
-                            <p className="para-desc text-white-50 mb-0">Find Jobs, Employment & Career Opportunities. Some of the companies we've helped recruit excellent applicants over the years.</p>
+                            <h1 className="heading text-white fw-bold">Encontra <br/> o teu <i>freela</i> <br/> em eventos.</h1>
+                            <p className="para-desc text-white-50 mb-0">Eventos precisam de ti. Tu precisas de um freela. Nós fazemos o match.</p>
 
                             <div className="text-center subscribe-form mt-4">
                                 <form style={{maxWidth:'800px'}}>
