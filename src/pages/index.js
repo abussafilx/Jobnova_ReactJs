@@ -92,7 +92,7 @@ export default function Index(){
             <AboutUs containerClass="container"/>
             <Categories/>
 
-            <div className="container mt-100 mt-60">
+            {/* <div className="container mt-100 mt-60">
                 <div className="row align-items-end mb-4 pb-2">
                     <div className="col-lg-6 col-md-9">
                         <div className="section-title text-md-start text-center">
@@ -150,7 +150,7 @@ export default function Index(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <AboutTwo/>
 
