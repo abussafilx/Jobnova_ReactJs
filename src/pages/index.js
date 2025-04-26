@@ -24,11 +24,12 @@ import ScrollTop from '../componants/scrollTop';
 import { jobData } from "../data/data";
 
 import {FiSearch,FiClock,FiMapPin} from "../assets/icons/vander"
+import NavbarBora from '../componants/navbarBora';
 
 export default function Index(){
     return(
         <>
-        <Navbar navClass="defaultscroll sticky"/>
+        <NavbarBora navClass="defaultscroll sticky"/>
         <section className="bg-half-170 d-table w-100 bg-primary" style={{backgroundImage:`url(${bg1})`, backgroundPosition:'center'}}>
             <div className="container">
                 <div className="row g-4 align-items-center">
