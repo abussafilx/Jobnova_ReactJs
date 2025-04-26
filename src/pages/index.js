@@ -12,7 +12,7 @@ import company6 from '../assets/images/company/linkedin.png'
 import company7 from '../assets/images/company/skype.png'
 import company8 from '../assets/images/company/snapchat.png'
 
-import Navbar from '../componants/navbar';
+
 import AboutUs from "../componants/aboutUs";
 import Categories from "../componants/categories";
 import Blog from '../componants/blog';
