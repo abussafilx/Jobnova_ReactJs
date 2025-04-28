@@ -19,10 +19,12 @@
         color: $dark !important;
         .l-dark,
         .logo-dark-mode {
+            height: 40px;
             display: none;
         }
         .l-light,
         .logo-light-mode {
+            height: 60px;
             display: inline-block;
         }
         .big-logo {
