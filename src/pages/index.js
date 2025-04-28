@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import bg1 from "../assets/images/bg2.png"
 import hero1 from '../assets/images/hero1.png'
@@ -21,9 +21,9 @@ import Companies from '../componants/companies';
 import AboutTwo from '../componants/aboutTwo';
 import ScrollTop from '../componants/scrollTop';
 
-import { jobData } from "../data/data";
+// import { jobData } from "../data/data";
 
-import {FiSearch,FiClock,FiMapPin} from "../assets/icons/vander"
+import {FiSearch,} from "../assets/icons/vander"
 import NavbarBora from '../componants/navbarBora';
 
 export default function Index(){
