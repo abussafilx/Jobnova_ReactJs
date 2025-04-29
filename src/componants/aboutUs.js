@@ -41,16 +41,16 @@ export default function AboutUs({containerClass}){
                     <div className="col-lg-6 col-md-6">
                         <div className="section-title ms-lg-5">
                             <h4 className="title mb-3"><strong>A forma mais rápida </strong> <br/> de contratar ou ser contratado para eventos.</h4>
-                            <p className="text-muted para-desc mb-0">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
+                            <p className="text-muted para-desc mb-0">O Bora liga-te aos eventos certos, no momento certo. <br></br>Cria o teu perfil, destaca as tuas skills e começa já a receber convites.</p>
                         
-                            <ul className="list-unstyled text-muted mb-0 mt-3">
+                            {/* <ul className="list-unstyled text-muted mb-0 mt-3">
                                 <li className="mb-1"><span className="text-primary h5 me-2"><i className="mdi mdi-check-circle-outline align-middle"></i></span>Digital Marketing Solutions for Tomorrow</li>
                                 <li className="mb-1"><span className="text-primary h5 me-2"><i className="mdi mdi-check-circle-outline align-middle"></i></span>Our Talented & Experienced Marketing Agency</li>
                                 <li className="mb-1"><span className="text-primary h5 me-2"><i className="mdi mdi-check-circle-outline align-middle"></i></span>Create your own skin to match your brand</li>
-                            </ul>
+                            </ul> */}
 
                             <div className="mt-4">
-                                <Link to="/aboutus" className="btn btn-primary">About Us <i className="mdi mdi-arrow-right align-middle"></i></Link>
+                                <Link to="/aboutus" className="btn btn-primary">Conheça o BORA<i className="mdi mdi-arrow-right align-middle"></i></Link>
                             </div>
                         </div>
                     </div>

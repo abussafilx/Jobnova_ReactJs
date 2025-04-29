@@ -2,11 +2,11 @@ import React from 'react';
 // import { Link } from "react-router-dom";
 
 import bg1 from "../assets/images/bg2.png"
-import hero1 from '../assets/images/hero1.png'
-import company1 from '../assets/images/company/circle-logo.png'
-import company2 from '../assets/images/company/facebook-logo.png'
-import company3 from '../assets/images/company/google-logo.png'
-import company4 from '../assets/images/company/lenovo-logo.png'
+import hero1 from '../assets/images/herobora.png'
+import company1 from '../assets/images/company/1.png'
+import company2 from '../assets/images/company/2.png'
+import company3 from '../assets/images/company/3.png'
+import company4 from '../assets/images/company/4.png'
 import company5 from '../assets/images/company/android.png'
 import company6 from '../assets/images/company/linkedin.png'
 import company7 from '../assets/images/company/skype.png'
@@ -18,7 +18,7 @@ import Categories from "../componants/categories";
 import Blog from '../componants/blog';
 import Footer from '../componants/footer';
 import Companies from '../componants/companies';
-import AboutTwo from '../componants/aboutTwo';
+
 import ScrollTop from '../componants/scrollTop';
 
 // import { jobData } from "../data/data";
@@ -58,28 +58,28 @@ export default function Index(){
 
                             <div className="spinner">
                                 <div className="position-absolute top-0 start-0 mt-lg-5 mt-4 ms-lg-5 ms-4">
-                                    <img src={company1} className="avatar avatar-md-sm rounded shadow p-2 bg-white" alt=""/>
+                                    <img src={company1} className="avatar avatar-md-md rounded shadow p-2" alt=""/>
                                 </div>
                                 <div className="position-absolute top-0 start-50 translate-middle-x">
-                                    <img src={company2} className="avatar avatar-md-sm rounded shadow p-2 bg-white" alt=""/>
+                                    <img src={company2} className="avatar avatar-medium rounded shadow p-2 " alt=""/>
                                 </div>
                                 <div className="position-absolute top-0 end-0 mt-lg-5 mt-4 me-lg-5 me-4">
-                                    <img src={company3} className="avatar avatar-md-sm rounded shadow p-2 bg-white" alt=""/>
+                                    <img src={company3} className="avatar avatar-medium rounded shadow p-2 " alt=""/>
                                 </div>
                                 <div className="position-absolute top-50 start-0 translate-middle-y">
-                                    <img src={company4} className="avatar avatar-md-sm rounded shadow p-2 bg-white" alt=""/>
+                                    <img src={company4} className="avatar avatar-medium rounded shadow p-2 " alt=""/>
                                 </div>
                                 <div className="position-absolute top-50 end-0 translate-middle-y">
-                                    <img src={company5} className="avatar avatar-md-sm rounded shadow p-2 bg-white" alt=""/>
+                                    <img src={company5} className="avatar avatar-md-sm rounded shadow p-2" alt=""/>
                                 </div>
                                 <div className="position-absolute bottom-0 start-0 mb-lg-5 mb-4 ms-lg-5 ms-4">
-                                    <img src={company6} className="avatar avatar-md-sm rounded shadow p-2 bg-white" alt=""/>
+                                    <img src={company6} className="avatar avatar-md-sm rounded shadow p-2" alt=""/>
                                 </div>
                                 <div className="position-absolute bottom-0 start-50 translate-middle-x">
-                                    <img src={company7} className="avatar avatar-md-sm rounded shadow p-2 bg-white" alt=""/>
+                                    <img src={company7} className="avatar avatar-md-sm rounded shadow p-2" alt=""/>
                                 </div>
                                 <div className="position-absolute bottom-0 end-0 mb-lg-5 mb-4 me-lg-5 me-4">
-                                    <img src={company8} className="avatar avatar-md-sm rounded shadow p-2 bg-white" alt=""/>
+                                    <img src={company8} className="avatar avatar-md-sm rounded shadow p-2" alt=""/>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +152,7 @@ export default function Index(){
                 </div>
             </div> */}
 
-            <AboutTwo/>
+            {/* <AboutTwo/> */}
 
             <div className="container mt-100 mt-60">
                 <Companies/>
@@ -162,8 +162,8 @@ export default function Index(){
                 <div className="row justify-content-center">
                     <div className="col">
                         <div className="section-title text-center mb-4 pb-2">
-                            <h4 className="title mb-3">Latest Blog or News</h4>
-                            <p className="text-muted para-desc mb-0 mx-auto">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
+                            <h4 className="title mb-3">Do nosso Blog</h4>
+                            <p className="text-muted para-desc mb-0 mx-auto">Conheça o mercado e saiba como se preparar para as oportunidades!</p>
                         </div>
                     </div>
                 </div>

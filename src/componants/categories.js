@@ -46,7 +46,7 @@ export default function Categories(){
                     <div className="col-12">
                         <div className="section-title text-center">
                             <h4 className="title mb-3">Categorias em Alta</h4>
-                            <p className="text-muted para-desc mx-auto mb-0">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
+                            <p className="text-muted para-desc mx-auto mb-0">Encontre gigs em diversas áreas nas maiores produtores de eventos do país.</p>
                         </div>
                     </div>
                 </div>

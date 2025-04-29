@@ -1,7 +1,7 @@
-import company1 from "../assets/images/company/facebook-logo.png"
-import company2 from "../assets/images/company/google-logo.png"
-import company3 from "../assets/images/company/android.png"
-import company4 from "../assets/images/company/lenovo-logo.png"
+import company1 from "../assets/images/company/1.png"
+import company2 from "../assets/images/company/2.png"
+import company3 from "../assets/images/company/3.png"
+import company4 from "../assets/images/company/4.png"
 import company5 from "../assets/images/company/spotify.png"
 import company6 from "../assets/images/company/linkedin.png"
 import company7 from "../assets/images/company/circle-logo.png"
@@ -106,12 +106,12 @@ export const jobData = [
     {
         id:1,
         image:company1,
-        name:'Facebook',
+        name:'Inside Events',
         title:'Web Designer / Developer',
         country:'Australia',
         city:'Vienna',    
         applied:'20',
-        vacancy:'40',
+        vacancy:'12',
         date:'13th Sep 2023',
         salary:'950 - 1100',
         posted:'2',
@@ -121,7 +121,7 @@ export const jobData = [
     {
         id:2,
         image:company2,
-        name:'Google',
+        name:'Boost',
         title:'Marketing Director',
         country:'Russia',
         city:'Moscow',    
@@ -136,12 +136,12 @@ export const jobData = [
     {
         id:3,
         image:company3,
-        name:'Android',
+        name:'Voqin',
         title:'Application Developer',
         country:'Germany',
         city:'Berlin',    
         applied:'20',
-        vacancy:'40',
+        vacancy:'23',
         date:'29th Dec 2023',
         salary:'950 - 1100',
         posted:'3',
@@ -151,12 +151,12 @@ export const jobData = [
     {
         id:4,
         image:company4,
-        name:'Lenovo',
+        name:'Meet inc travel',
         title:'Senior Product Designer',
         country:'Italy',
         city:'Rome',    
         applied:'20',
-        vacancy:'40',
+        vacancy:'10',
         date:'13th March 2023',
         salary:'950 - 1100',
         posted:'2',
