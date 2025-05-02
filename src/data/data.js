@@ -102,7 +102,7 @@ export const categoriesData = [
     },
 ]
 
-export const jobData = [
+export const jobData2 = [
     {
         id:1,
         image:company1,
@@ -285,6 +285,160 @@ export const jobData = [
     },
 ]
 
+export const jobData = [
+    {
+      id: 1,
+      image: company1,
+      name: 'SoundWave Eventos',
+      title: 'Montador(a) de Estruturas – Festival de Verão Porto 2025',
+      country: 'Portugal',
+      city: 'Porto',
+      applied: '15',
+      vacancy: '6',
+      date: '21st Jun 2025',
+      salary: '60 - 80 / dia',
+      posted: '2',
+      jobTime: 'Full Time',
+      desc: 'Ajuda na montagem e desmontagem de estruturas de palco e tendas para um festival de grande porte.'
+    },
+    {
+      id: 2,
+      image: company2,
+      name: 'TechExpo',
+      title: 'Promotor(a) de Marca – Feira de Tecnologia',
+      country: 'Portugal',
+      city: 'Lisboa',
+      applied: '22',
+      vacancy: '4',
+      date: '5th Jul 2025',
+      salary: '50 - 65 / dia',
+      posted: '1',
+      jobTime: 'Part Time',
+      desc: 'Divulgação de produtos e interação com visitantes durante feira de tecnologia no centro de exposições.'
+    },
+    {
+      id: 3,
+      image: company3,
+      name: 'EventPlus',
+      title: 'Assistente de Produção – Evento Corporativo',
+      country: 'Portugal',
+      city: 'Cascais',
+      applied: '9',
+      vacancy: '2',
+      date: '15th May 2025',
+      salary: '70 - 90 / dia',
+      posted: '3',
+      jobTime: 'Full Time',
+      desc: 'Apoio à equipa de produção com gestão de horários, fornecedores e coordenação geral do evento.'
+    },
+    {
+      id: 4,
+      image: company4,
+      name: 'Saúde em Rede',
+      title: 'Recepcionista de Evento – Congresso de Saúde',
+      country: 'Portugal',
+      city: 'Porto',
+      applied: '12',
+      vacancy: '3',
+      date: '1st Jun 2025',
+      salary: '45 - 60 / dia',
+      posted: '4',
+      jobTime: 'Part Time',
+      desc: 'Realizar check-in dos participantes, entregar materiais e orientar o público no local do evento.'
+    },
+    {
+      id: 5,
+      image: company5,
+      name: 'Private Affairs',
+      title: 'Bar Staff – Festa de Fim de Ano Privada',
+      country: 'Portugal',
+      city: 'Lisboa',
+      applied: '30',
+      vacancy: '5',
+      date: '31st Dec 2025',
+      salary: '80 - 120 / noite',
+      posted: '7',
+      jobTime: 'Full Time',
+      desc: 'Atendimento ao bar com preparação de bebidas em evento noturno exclusivo. Experiência obrigatória.'
+    },
+    {
+      id: 6,
+      image: company6,
+      name: 'Live Audio',
+      title: 'Operador(a) de Som – Concerto ao Vivo',
+      country: 'Portugal',
+      city: 'Braga',
+      applied: '6',
+      vacancy: '1',
+      date: '10th May 2025',
+      salary: '100 - 150',
+      posted: '2',
+      jobTime: 'Full Time',
+      desc: 'Montagem e operação de som ao vivo para banda internacional. Experiência comprovada necessária.'
+    },
+    {
+      id: 7,
+      image: company7,
+      name: 'Zoolândia Kids',
+      title: 'Animador(a) Infantil – Evento no Jardim Zoológico',
+      country: 'Portugal',
+      city: 'Lisboa',
+      applied: '18',
+      vacancy: '3',
+      date: '19th May 2025',
+      salary: '50 - 70 / dia',
+      posted: '1',
+      jobTime: 'Part Time',
+      desc: 'Condução de atividades lúdicas com crianças durante evento familiar. Requer criatividade e energia.'
+    },
+    {
+      id: 8,
+      image: company8,
+      name: 'SafeZone',
+      title: 'Segurança de Evento – Evento Desportivo',
+      country: 'Portugal',
+      city: 'Coimbra',
+      applied: '10',
+      vacancy: '4',
+      date: '7th Jun 2025',
+      salary: '70 - 90 / dia',
+      posted: '5',
+      jobTime: 'Full Time',
+      desc: 'Controle de acessos e patrulha durante competição desportiva. Curso de segurança é um diferencial.'
+    },
+    {
+      id: 9,
+      image: company9,
+      name: 'Wedding Stories',
+      title: 'Fotógrafo(a) – Casamento em Sintra',
+      country: 'Portugal',
+      city: 'Sintra',
+      applied: '14',
+      vacancy: '1',
+      date: '22nd Jun 2025',
+      salary: '150 - 200',
+      posted: '3',
+      jobTime: 'Freelance',
+      desc: 'Fotografia documental do casamento. É necessário levar o próprio equipamento e apresentar portfólio.'
+    },
+    {
+      id: 10,
+      image: company10,
+      name: 'Palco Central',
+      title: 'Técnico(a) de Luz – Espetáculo Teatral',
+      country: 'Portugal',
+      city: 'Aveiro',
+      applied: '5',
+      vacancy: '1',
+      date: '29th May 2025',
+      salary: '90 - 130',
+      posted: '2',
+      jobTime: 'Full Time',
+      desc: 'Montagem e operação de luz para espetáculo teatral. Requer conhecimento em mesa de luz e experiência prévia.'
+    }
+  ]
+  
+
 export const servicesData = [
     {
         icon:FiPhone,
@@ -330,105 +484,107 @@ export const servicesData = [
 
 export const blogData = [
     {
-      id:1,
-      image:blog1,
-      title:'11 Tips to Help You Get New Clients Through Cold Calling',
-      date:'13th Sep 2023',
-      time:'5 min read',
-      tag:'Arts',
-      company:'Google'
+      id: 1,
+      image: blog1,
+      title: 'Como Organizar um Evento de Sucesso: Dicas Importantes',
+      date: '13th Sep 2023',
+      time: '5 min read',
+      tag: 'Eventos',
+      company: 'Bora'
     },
     {
-        id:2,
-        image:blog2,
-        title:'DigitalOcean launches first Canadian data centre in Toronto',
-        date:'29th Nov 2023',
-        time:'5 min read',
-        tag:'Illustration',
-        company:'Facebook'
-      },
-      {
-        id:3,
-        image:blog3,
-        title:'Using Banner Stands To Increase Trade Show Traffic',
-        date:'29th Dec 2023',
-        time:'5 min read',
-        tag:'Music',
-        company:'Linkedin'
-      },
-      {
-        id:4,
-        image:blog4,
-        title:'11 Tips to Help You Get New Clients Through Cold Calling',
-        date:'13th March 2023',
-        time:'5 min read',
-        tag:'Arts',
-        company:'Google'
-      },
-      {
-        id:5,
-        image:blog5,
-        title:'DigitalOcean launches first Canadian data centre in Toronto',
-        date:'5th May 2023',
-        time:'5 min read',
-        tag:'Illustration',
-        company:'Facebook'
-      },
-      {
-        id:6,
-        image:blog6,
-        title:'Using Banner Stands To Increase Trade Show Traffic',
-        date:'19th June 2023',
-        time:'5 min read',
-        tag:'Music',
-        company:'Linkedin'
-      },
-      {
-        id:7,
-        image:blog7,
-        title:'11 Tips to Help You Get New Clients Through Cold Calling',
-        date:'20th June 2023',
-        time:'5 min read',
-        tag:'Arts',
-        company:'Google'
-      },
-      {
-        id:8,
-        image:blog8,
-        title:'DigitalOcean launches first Canadian data centre in Toronto',
-        date:'31st Aug 2023',
-        time:'5 min read',
-        tag:'Illustration',
-        company:'Facebook'
-      },
-      {
-        id:9,
-        image:blog9,
-        title:'Using Banner Stands To Increase Trade Show Traffic',
-        date:'1st Sep 2024',
-        time:'5 min read',
-        tag:'Music',
-        company:'Linkedin'
-      },
-]
+      id: 2,
+      image: blog2,
+      title: 'As Melhores Técnicas para Montagem de Palcos em Festivais',
+      date: '29th Nov 2023',
+      time: '6 min read',
+      tag: 'Produção',
+      company: 'EventPro'
+    },
+    {
+      id: 3,
+      image: blog3,
+      title: 'Por que Investir em Animação em Eventos Corporativos',
+      date: '29th Dec 2023',
+      time: '4 min read',
+      tag: 'Entretenimento',
+      company: 'LiveEntertain'
+    },
+    {
+      id: 4,
+      image: blog4,
+      title: 'Como Aumentar a Eficiência Logística em Eventos de Grande Escala',
+      date: '13th March 2023',
+      time: '5 min read',
+      tag: 'Logística',
+      company: 'EventTech'
+    },
+    {
+      id: 5,
+      image: blog5,
+      title: 'Técnicas de Captação de Imagem em Eventos ao Vivo',
+      date: '5th May 2023',
+      time: '6 min read',
+      tag: 'Fotografia',
+      company: 'CaptureIt'
+    },
+    {
+      id: 6,
+      image: blog6,
+      title: 'Como Criar uma Experiência Imersiva em Eventos de Grande Porte',
+      date: '19th June 2023',
+      time: '7 min read',
+      tag: 'Experiência',
+      company: 'ImmersionEvents'
+    },
+    {
+      id: 7,
+      image: blog7,
+      title: 'Dicas para Gerenciar Eventos Virtuais de Forma Eficiente',
+      date: '20th June 2023',
+      time: '5 min read',
+      tag: 'Eventos Virtuais',
+      company: 'VirtualConnect'
+    },
+    {
+      id: 8,
+      image: blog8,
+      title: 'O Papel do Marketing na Promoção de Eventos de Grande Escala',
+      date: '31st Aug 2023',
+      time: '5 min read',
+      tag: 'Marketing',
+      company: 'PromoEvents'
+    },
+    {
+      id: 9,
+      image: blog9,
+      title: 'Como a Tecnologia Está Transformando o Mundo dos Eventos',
+      date: '1st Sep 2024',
+      time: '6 min read',
+      tag: 'Tecnologia',
+      company: 'TechEvents'
+    }
+  ];
+  
 
-export const recentBlog = [
+  export const recentBlog = [
     {
-        image:blog1,
-        title:'Consultant Business',
-        date:'13th March 2023'
+      image: blog1,
+      title: 'Como Planejar um Evento de Sucesso do Início ao Fim',
+      date: '13th March 2023'
     },
     {
-        image:blog2,
-        title:'Grow Your Business',
-        date:'5th May 2023'
+      image: blog2,
+      title: 'Estratégias de Marketing para Aumentar a Visibilidade de Eventos',
+      date: '5th May 2023'
     },
     {
-        image:blog1,
-        title:'Look On The Glorious Balance',
-        date:'19th June 2023'
-    },
-]
+      image: blog1,
+      title: 'Tendências de Tecnologia em Eventos ao Vivo para 2023',
+      date: '19th June 2023'
+    }
+  ];
+  
 
 export const servicesTwo =[
     {
@@ -459,46 +615,47 @@ export const servicesTwo =[
 
 export const categoriesTwoData = [
     {
-        title:'Human Resource',
-        job:'90 Jobs Available'
+      title: 'Produção de Eventos',
+      job: '27 Vagas Disponíveis'
     },
     {
-        title:'It & Networking',
-        job:'90 Jobs Available'
+      title: 'Montagem & Logística',
+      job: '18 Vagas Disponíveis'
     },
     {
-        title:'Sales & Marketing',
-        job:'90 Jobs Available'
+      title: 'Recepcionistas',
+      job: '32 Vagas Disponíveis'
     },
     {
-        title:'Accounting',
-        job:'90 Jobs Available'
+      title: 'Técnicos de Som e Luz',
+      job: '14 Vagas Disponíveis'
     },
     {
-        title:'Delivery Boy',
-        job:'90 Jobs Available'
+      title: 'Segurança',
+      job: '12 Vagas Disponíveis'
     },
     {
-        title:'Data Science',
-        job:'90 Jobs Available'
+      title: 'Animação & Entretenimento',
+      job: '20 Vagas Disponíveis'
     },
     {
-        title:'Project Manager',
-        job:'90 Jobs Available'
+      title: 'Captação de Imagem',
+      job: '15 Vagas Disponíveis'
     },
     {
-        title:'Engineering',
-        job:'90 Jobs Available'
+      title: 'Catering & Bar',
+      job: '22 Vagas Disponíveis'
     },
     {
-        title:'Help Center',
-        job:'90 Jobs Available'
+      title: 'Coordenação de Staff',
+      job: '9 Vagas Disponíveis'
     },
     {
-        title:'Full Stack Developer',
-        job:'90 Jobs Available'
-    },
-]
+      title: 'Ativação de Marca',
+      job: '11 Vagas Disponíveis'
+    }
+  ];
+  
 
 export const accordionData = [
     {
@@ -647,30 +804,31 @@ export const candidatesData = [
 ]
 export const candidateSkill = [
     {
-        title:'HTML',
-        value:'84%'
+      title: 'Produção de Eventos',
+      value: '84%'
     },
     {
-        title:'CSS',
-        value:'75%'
+      title: 'Montagem de Palco',
+      value: '75%'
     },
     {
-        title:'JQuery',
-        value:'79%'
+      title: 'Gestão de Logística',
+      value: '79%'
     },
     {
-        title:'WordPress',
-        value:'79%'
+      title: 'Atendimento ao Cliente',
+      value: '79%'
     },
     {
-        title:'Figma',
-        value:'85%'
+      title: 'Captação de Imagem',
+      value: '85%'
     },
     {
-        title:'Illustration',
-        value:'65%'
-    },
-]
+      title: 'Animação de Eventos',
+      value: '65%'
+    }
+  ];
+  
 
 export const teamData = [
     {
