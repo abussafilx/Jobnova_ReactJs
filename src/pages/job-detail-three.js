@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 
 import logo1 from '../assets/images/company/lenovo-logo.png'
-import NavbarDark from "../componants/navbarDark";
+import NavbarDark from "../componants/navbarBora";
 import Footer from "../componants/footer"
 import ScrollTop from "../componants/scrollTop";
 

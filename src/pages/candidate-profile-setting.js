@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import image1 from "../assets/images/team/01.jpg"
 import bg1 from "../assets/images/hero/bg5.jpg"
 
-import NavbarDark from "../componants/navbarDark";
+import NavbarDark from "../componants/navbarBora"
 import Footer from "../componants/footer";
 import ScrollTop from "../componants/scrollTop";
 

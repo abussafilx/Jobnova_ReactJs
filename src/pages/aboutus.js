@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import bg1 from "../assets/images/hero/bg.jpg"
 
-import Navbar from "../componants/navbar";
+import Navbar from "../componants/navbarBora"
 import About from "../componants/aboutUs"
 import Footer from "../componants/footer";
 import ScrollTop from "../componants/scrollTop";
