@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 import bg1 from '../assets/images/hero/bg.jpg'
 
-import Navbar from "../componants/navbar";
-import AboutTwo from "../componants/aboutTwo";
+import Navbar from "../componants/navbarBora";
+
 import FormSelect from "../componants/formSelect";
 import Footer from "../componants/footer";
 import ScrollTop from "../componants/scrollTop";
@@ -23,7 +23,7 @@ export default function JobListOne(){
                 <div className="row mt-5 justify-content-center">
                     <div className="col-12">
                         <div className="title-heading text-center">
-                            <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">Job Vacancies</h5>
+                            <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">Gigs selecionados para ti</h5>
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,6 @@ export default function JobListOne(){
                 </div>
             </div>
 
-            <AboutTwo/>
         </section>
         <Footer top={true}/>
         <ScrollTop/>

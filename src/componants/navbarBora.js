@@ -137,15 +137,14 @@ export default function NavbarBora({navClass, navLight}){
                         </ul>
                     </li>
 
-                    <li className={`${["job-categories", "job-grid-one","job-grid-two", "job-grid-three","job-grid-four","job-list-one", "job-list-two","job-detail-one", "job-detail-two","job-detail-three","job-apply","job-post","career" ].includes(manu)? "active" : ""} has-submenu parent-menu-item`}><Link to="#"> Jobs </Link><span className="menu-arrow"></span>
+                    <li className={`${["job-categories", "job-grid-one","job-grid-two", "job-grid-three","job-grid-four","job-list-one", "job-list-two","job-detail-one", "job-detail-two","job-detail-three","job-apply","job-post","career" ].includes(manu)? "active" : ""} has-submenu parent-menu-item`}><Link to="#"> Vagas </Link><span className="menu-arrow"></span>
                         <ul className="submenu">
-                            <li className={manu === "job-categories"  ? "active" : ""}><Link to="/job-categories" className="sub-menu-item">Job Categories</Link></li>
                     
                             
                             <li className={`${["job-list-one", "job-list-two"].includes(manu)? "active" : ""} has-submenu parent-menu-item`}>
                                 <Link to="#"> Job Lists </Link><span className="submenu-arrow"></span>
                                 <ul className="submenu">
-                                    <li className={manu === "job-list-one"  ? "active" : ""}><Link to="/job-list-one" className="sub-menu-item">Job List One</Link></li>
+                                    <li className={manu === "job-list-one"  ? "active" : ""}><Link to="/job-list-one" className="sub-menu-item">Gigs selecionados</Link></li>
   
                                 </ul>  
                             </li>
@@ -154,54 +153,54 @@ export default function NavbarBora({navClass, navLight}){
                                 <Link to="#"> Job Detail </Link><span className="submenu-arrow"></span>
                                 <ul className="submenu">
 
-                                    <li className={manu === "job-detail-three"  ? "active" : ""}><Link to="/job-detail-three" className="sub-menu-item">Job Detail Three</Link></li>
+                                    <li className={manu === "job-detail-two"  ? "active" : ""}><Link to="/job-detail-three" className="sub-menu-item">Gig em detalhe</Link></li>
                                 </ul>  
                             </li>
             
-                            <li className={manu === "job-apply"  ? "active" : ""}><Link to="/job-apply" className="sub-menu-item">Job Apply</Link></li>
+                            <li className={manu === "job-apply"  ? "active" : ""}><Link to="/job-apply" className="sub-menu-item">Aplicar</Link></li>
             
-                            <li className={manu === "job-post"  ? "active" : ""}><Link to="/job-post" className="sub-menu-item">Job Post </Link></li>
+                            <li className={manu === "job-post"  ? "active" : ""}><Link to="/job-post" className="sub-menu-item">Postar Gig </Link></li>
             
-                            <li className={manu === "career"  ? "active" : ""}><Link to="/career" className="sub-menu-item">Career </Link></li>
+         
                         </ul>  
                     </li>
             
                     <li className={`${["employers", "employer-profile"].includes(manu)? "active" : ""} has-submenu parent-menu-item`}>
-                        <Link to="#">Employers</Link><span className="menu-arrow"></span>
+                        <Link to="#">Empresas</Link><span className="menu-arrow"></span>
                         <ul className="submenu">
-                            <li className={manu === "employers"  ? "active" : ""}><Link to="/employers" className="sub-menu-item">Employers</Link></li>
-                            <li className={manu === "employer-profile"  ? "active" : ""}><Link to="/employer-profile" className="sub-menu-item">Employer Profile</Link></li>
+                            <li className={manu === "employers"  ? "active" : ""}><Link to="/employers" className="sub-menu-item">Empresas</Link></li>
+                            <li className={manu === "employer-profile"  ? "active" : ""}><Link to="/employer-profile" className="sub-menu-item">Perfil Empresa</Link></li>
                         </ul>
                     </li>
             
                     <li className={`${["candidates", "candidate-profile","candidate-profile-setting"].includes(manu)? "active" : ""} has-submenu parent-menu-item`}>
-                        <Link to="#">Candidates</Link><span className="menu-arrow"></span>
+                        <Link to="#">Candidatos</Link><span className="menu-arrow"></span>
                         <ul className="submenu">
-                            <li className={manu === "candidates"  ? "active" : ""}><Link to="/candidates" className="sub-menu-item">Candidates</Link></li>
-                            <li className={manu === "candidate-profile"  ? "active" : ""}><Link to="/candidate-profile" className="sub-menu-item">Candidate Profile</Link></li>
-                            <li className={manu === "candidate-profile-setting"  ? "active" : ""}><Link to="/candidate-profile-setting" className="sub-menu-item">Profile Setting</Link></li>
+                            <li className={manu === "candidates"  ? "active" : ""}><Link to="/candidates" className="sub-menu-item">Candidatos</Link></li>
+                            <li className={manu === "candidate-profile"  ? "active" : ""}><Link to="/candidate-profile" className="sub-menu-item">Perfil Candidato</Link></li>
+                            <li className={manu === "candidate-profile-setting"  ? "active" : ""}><Link to="/candidate-profile-setting" className="sub-menu-item">Criar Perfil</Link></li>
                         </ul>
                     </li>
             
                     <li className={`${["aboutus", "services","pricing","helpcenter-overview", "helpcenter-faqs","helpcenter-guides",'helpcenter-support',"blogs", "blog-sidebar","blog-detail","login", "signup","reset-password","lock-screen","terms", "privacy"].includes(manu)? "active" : ""} has-submenu parent-menu-item`}>
-                        <Link to="#">Pages</Link><span className="menu-arrow"></span>
+                        <Link to="#">Outras Páginas</Link><span className="menu-arrow"></span>
                         <ul className="submenu">
-                            <li className={manu === "aboutus"  ? "active" : ""}><Link to="/aboutus" className="sub-menu-item">About Us</Link></li>
+                            <li className={manu === "aboutus"  ? "active" : ""}><Link to="/aboutus" className="sub-menu-item">Sobre Nós</Link></li>
 
 
                             <li className={`${["login", "signup","reset-password","lock-screen"].includes(manu)? "active" : ""} has-submenu parent-menu-item`}><Link to="#"> Auth Pages </Link><span className="submenu-arrow"></span>
                                 <ul className="submenu">
                                     <li className={manu === "login"  ? "active" : ""}><Link to="/login" className="sub-menu-item"> Login</Link></li>
-                                    <li className={manu === "signup"  ? "active" : ""}><Link to="/signup" className="sub-menu-item"> Signup</Link></li>
-                                    <li className={manu === "reset-password"  ? "active" : ""}><Link to="/reset-password" className="sub-menu-item"> Forgot Password</Link></li>
-                                    <li className={manu === "lock-screen"  ? "active" : ""}><Link to="/lock-screen" className="sub-menu-item"> Lock Screen</Link></li>
+
+
+
                                 </ul> 
                             </li>
 
                         </ul>
                     </li>
             
-                    <li className={manu === "contactus"  ? "active" : ""}><Link to="/contactus" className="sub-menu-item">Contact Us</Link></li>
+                    {/* <li className={manu === "contactus"  ? "active" : ""}><Link to="/contactus" className="sub-menu-item">Contact Us</Link></li> */}
                 </ul>
             </div>
         </div>

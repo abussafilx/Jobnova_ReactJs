@@ -8,7 +8,7 @@ import company2 from "../assets/images/company/lenovo-logo.png"
 import pdf from "../assets/images/calvin-carlo-resume.pdf"
 import image1 from "../assets/images/team/01.jpg"
 
-import NavbarDark from "../componants/navbarDark";
+import NavbarDark from "../componants/navbarBora";
 import Footer from "../componants/footer";
 import ScrollTop from "../componants/scrollTop";
 

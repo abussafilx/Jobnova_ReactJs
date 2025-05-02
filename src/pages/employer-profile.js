@@ -7,7 +7,7 @@ import image1 from "../assets/images/company/1.jpg"
 import image2 from "../assets/images/company/2.jpg"
 import image3 from "../assets/images/company/3.jpg"
 
-import Navbar from "../componants/navbar";
+import Navbar from "../componants/navbarBora";
 import Footer from "../componants/footer";
 import ScrollTop from "../componants/scrollTop";
 
