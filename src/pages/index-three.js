@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import bg1 from '../assets/images/hero/bg3.jpg';
 import heroImg from "../assets/images/hero.jpg";
 
-import Navbar from "../componants/navbar";
+
 import Counter from '../componants/counter';
 import AboutUs from '../componants/aboutUs';
 
