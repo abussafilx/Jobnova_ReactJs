@@ -28,9 +28,9 @@ import work4 from "../assets/images/work/04.jpg"
 import work5 from "../assets/images/work/05.jpg"
 import work6 from "../assets/images/work/06.jpg"
 
-import team1 from "../assets/images/team/01.jpg"
-import team2 from "../assets/images/team/02.jpg"
-import team3 from "../assets/images/team/03.jpg"
+import team1 from "../assets/images/team/01.png"
+import team2 from "../assets/images/team/02.png"
+import team3 from "../assets/images/team/03.png"
 import team4 from "../assets/images/team/04.jpg"
 import team5 from "../assets/images/team/05.jpg"
 import team6 from "../assets/images/team/06.jpg"
@@ -694,7 +694,7 @@ export const jobOpenings = [
 export const candidatesData = [
     {
         id:1,
-        image:team1,
+        image:team8,
         name:'Steven Townsend',
         post:'Marketing Director',
         salary:'$5k - $6k',
@@ -703,7 +703,7 @@ export const candidatesData = [
     },
     {
         id:2,
-        image:team2,
+        image:team7,
         name:'Tiffany Betancourt',
         post:'Application Developer',
         salary:'$4k - $5k',
@@ -712,7 +712,7 @@ export const candidatesData = [
     },
     {
         id:3,
-        image:team3,
+        image:team6,
         name:'Jacqueline Burns',
         post:'Senior Product Designer',
         salary:'$3k - $4k',
@@ -833,24 +833,20 @@ export const candidateSkill = [
 export const teamData = [
     {
         image:team1,
-        name:'Jack John',
-        title:'Job Seeker'
+        name:'Tania Fernandes',
+        title:'CEO'
     },
     {
         image:team2,
-        name:'Krista John',
-        title:'Job Seeker'
+        name:'Débora Baungartner',
+        title:'COO'
     },
     {
         image:team3,
-        name:'Roger Jackson',
-        title:'Job Seeker'
+        name:'Victor Abussafi',
+        title:'CTO'
     },
-    {
-        image:team4,
-        name:'Johnny English',
-        title:'Job Seeker'
-    },
+
 ]
 export const helpcenterData = [
     {

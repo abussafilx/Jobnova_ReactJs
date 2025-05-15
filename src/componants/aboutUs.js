@@ -41,7 +41,9 @@ export default function AboutUs({containerClass}){
                     <div className="col-lg-6 col-md-6">
                         <div className="section-title ms-lg-5">
                             <h4 className="title mb-3"><strong>A forma mais rápida </strong> <br/> de contratar ou ser contratado para eventos.</h4>
-                            <p className="text-muted para-desc mb-0">O Bora liga-te aos eventos certos, no momento certo. <br></br>Cria o teu perfil, destaca as tuas skills e começa já a receber convites.</p>
+                            <p className="text-muted para-desc mb-0">A BORA descomplica a comunicação e fortalece as ligações. 
+<br></br> <br></br>Conheça a BORA! Eventos.
+</p>
                         
                             {/* <ul className="list-unstyled text-muted mb-0 mt-3">
                                 <li className="mb-1"><span className="text-primary h5 me-2"><i className="mdi mdi-check-circle-outline align-middle"></i></span>Digital Marketing Solutions for Tomorrow</li>
