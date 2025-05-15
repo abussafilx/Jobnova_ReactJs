@@ -285,41 +285,41 @@ export const jobData2 = [
     },
 ]
 
-export const jobData = [
+export const jobDataBoost = [
     {
       id: 1,
-      image: company1,
-      name: 'SoundWave Eventos',
-      title: 'Montador(a) de Estruturas – Festival de Verão Porto 2025',
+      image: company2,
+      name: 'Boost Portugal',
+      title: 'Apresentador de Quiz',
       country: 'Portugal',
       city: 'Porto',
       applied: '15',
       vacancy: '6',
       date: '21st Jun 2025',
-      salary: '60 - 80 / dia',
-      posted: '2',
-      jobTime: 'Full Time',
+      salary: '50€ / 4h',
+      posted: '1',
+      jobTime: '16 de Maio (noite)',
       desc: 'Ajuda na montagem e desmontagem de estruturas de palco e tendas para um festival de grande porte.'
     },
     {
       id: 2,
       image: company2,
-      name: 'TechExpo',
-      title: 'Promotor(a) de Marca – Feira de Tecnologia',
+        name: 'Boost Portugal',
+      title: 'Promotora em traje Minhota',
       country: 'Portugal',
       city: 'Lisboa',
       applied: '22',
       vacancy: '4',
       date: '5th Jul 2025',
-      salary: '50 - 65 / dia',
+      salary: '30€ / 1h',
       posted: '1',
-      jobTime: 'Part Time',
+      jobTime: '19 de Junho (tarde)',
       desc: 'Divulgação de produtos e interação com visitantes durante feira de tecnologia no centro de exposições.'
     },
     {
       id: 3,
-      image: company3,
-      name: 'EventPlus',
+      image: company2,
+      name: 'Boost Portugal',
       title: 'Assistente de Produção – Evento Corporativo',
       country: 'Portugal',
       city: 'Cascais',
@@ -333,8 +333,8 @@ export const jobData = [
     },
     {
       id: 4,
-      image: company4,
-      name: 'Saúde em Rede',
+      image: company2,
+   name: 'Boost Portugal',
       title: 'Recepcionista de Evento – Congresso de Saúde',
       country: 'Portugal',
       city: 'Porto',
@@ -437,6 +437,159 @@ export const jobData = [
       desc: 'Montagem e operação de luz para espetáculo teatral. Requer conhecimento em mesa de luz e experiência prévia.'
     }
   ]
+
+  export const jobData = [
+    {
+      id: 1,
+      image: company1,
+      name: 'Inside Events',
+      title: 'Transfer Aeroporto/Hotel CR7 Pestana Lisboa',
+      country: 'Portugal',
+      city: 'Lisboa',
+      applied: '15',
+      vacancy: '2',
+      date: '12 de Maio',
+      salary: '30€ / 1h',
+      posted: '2',
+      jobTime: 'Full Time',
+      desc: 'Ajuda na montagem e desmontagem de estruturas de palco e tendas para um festival de grande porte.'
+    },
+    {
+      id: 2,
+      image: company2,
+      name: 'Boost Portugal',
+      title: 'Apresentador de Quiz',
+      country: 'Portugal',
+      city: 'Lisboa',
+      applied: '22',
+      vacancy: '3',
+      date: '16 de Maio',
+      salary: '50€ / 4h',
+      posted: '1',
+      jobTime: 'Part Time',
+      desc: 'Divulgação de produtos e interação com visitantes durante feira de tecnologia no centro de exposições.'
+    },
+    {
+      id: 3,
+      image: company3,
+      name: 'Voqin',
+      title: 'Co-coordenador de evento corporate',
+      country: 'Portugal',
+      city: 'Cascais',
+      applied: '9',
+      vacancy: '2',
+      date: '11 de Junho',
+      salary: '60€ / 4h',
+      posted: '3',
+      jobTime: 'Full Time',
+      desc: 'Apoio à equipa de produção com gestão de horários, fornecedores e coordenação geral do evento.'
+    },
+    {
+      id: 4,
+      image: company4,
+      name: 'Rituais',
+      title: 'Tour guiado pela Baixa de Lisboa',
+      country: 'Portugal',
+      city: 'Lisboa',
+      applied: '12',
+      vacancy: '3',
+      date: '13 de Junho',
+      salary: '50€ / 2h30',
+      posted: '4',
+      jobTime: 'Part Time',
+      desc: 'Realizar check-in dos participantes, entregar materiais e orientar o público no local do evento.'
+    },
+    {
+      id: 5,
+      image: company5,
+      name: 'Private Affairs',
+      title: 'Apoio logístico Congresso Português de Cardiologia',
+      country: 'Portugal',
+      city: 'Lisboa',
+      applied: '30',
+      vacancy: '5',
+      date: '18 de Junho ',
+      salary: '90€ / 10h',
+      posted: '7',
+      jobTime: 'Full Time',
+      desc: 'Atendimento ao bar com preparação de bebidas em evento noturno exclusivo. Experiência obrigatória.'
+    },
+    {
+      id: 6,
+      image: company2,
+      name: 'Boost Portugal',
+      title: 'Promotora em traje Minhota',
+      country: 'Portugal',
+      city: 'Porto',
+      applied: '6',
+      vacancy: '1',
+      date: '19 de Junho ',
+      salary: '30€ / 1h',
+      posted: '2',
+      jobTime: 'Full Time',
+      desc: 'Montagem e operação de som ao vivo para banda internacional. Experiência comprovada necessária.'
+    },
+    {
+      id: 7,
+      image: company1,
+  name: 'Inside Events',
+      title: 'Suporte bilheteira NOS ALIVE',
+      country: 'Portugal',
+      city: 'Lisboa',
+      applied: '18',
+      vacancy: '3',
+      date: '11 de Julho ',
+      salary: '80€ / 10h',
+      posted: '1',
+      jobTime: 'Part Time',
+      desc: 'Condução de atividades lúdicas com crianças durante evento familiar. Requer criatividade e energia.'
+    },
+    {
+      id: 8,
+      image: company8,
+      name: 'SafeZone',
+      title: 'Segurança de Evento – Evento Desportivo',
+      country: 'Portugal',
+      city: 'Coimbra',
+      applied: '10',
+      vacancy: '4',
+      date: '7th Jun 2025',
+      salary: '70 - 90 / dia',
+      posted: '5',
+      jobTime: 'Full Time',
+      desc: 'Controle de acessos e patrulha durante competição desportiva. Curso de segurança é um diferencial.'
+    },
+    {
+      id: 9,
+      image: company9,
+      name: 'Wedding Stories',
+      title: 'Fotógrafo(a) – Casamento em Sintra',
+      country: 'Portugal',
+      city: 'Sintra',
+      applied: '14',
+      vacancy: '1',
+      date: '22nd Jun 2025',
+      salary: '150 - 200',
+      posted: '3',
+      jobTime: 'Freelance',
+      desc: 'Fotografia documental do casamento. É necessário levar o próprio equipamento e apresentar portfólio.'
+    },
+    {
+      id: 10,
+      image: company10,
+      name: 'Palco Central',
+      title: 'Técnico(a) de Luz – Espetáculo Teatral',
+      country: 'Portugal',
+      city: 'Aveiro',
+      applied: '5',
+      vacancy: '1',
+      date: '29th May 2025',
+      salary: '90 - 130',
+      posted: '2',
+      jobTime: 'Full Time',
+      desc: 'Montagem e operação de luz para espetáculo teatral. Requer conhecimento em mesa de luz e experiência prévia.'
+    }
+  ]
   
 
 export const servicesData = [
@@ -487,35 +640,35 @@ export const blogData = [
       id: 1,
       image: blog1,
       title: 'Como Organizar um Evento de Sucesso: Dicas Importantes',
-      date: '13th Sep 2023',
-      time: '5 min read',
+      date: '13 Maio 2025',
+      time: '5 min',
       tag: 'Eventos',
-      company: 'Bora'
+      company: 'BORAEventos'
     },
     {
       id: 2,
       image: blog2,
       title: 'As Melhores Técnicas para Montagem de Palcos em Festivais',
-      date: '29th Nov 2023',
-      time: '6 min read',
+      date: '10 Maio 2025',
+      time: '6 min',
       tag: 'Produção',
-      company: 'EventPro'
+      company: 'BORAEventos'
     },
     {
       id: 3,
       image: blog3,
       title: 'Por que Investir em Animação em Eventos Corporativos',
-      date: '29th Dec 2023',
-      time: '4 min read',
+      date: '07 Maio 2025',
+      time: '4 min',
       tag: 'Entretenimento',
-      company: 'LiveEntertain'
+      company: 'BORAEventos'
     },
     {
       id: 4,
       image: blog4,
       title: 'Como Aumentar a Eficiência Logística em Eventos de Grande Escala',
-      date: '13th March 2023',
-      time: '5 min read',
+      date: '1 Maio 2025',
+      time: '5 min',
       tag: 'Logística',
       company: 'EventTech'
     },
@@ -524,7 +677,7 @@ export const blogData = [
       image: blog5,
       title: 'Técnicas de Captação de Imagem em Eventos ao Vivo',
       date: '5th May 2023',
-      time: '6 min read',
+      time: '6 min',
       tag: 'Fotografia',
       company: 'CaptureIt'
     },
@@ -533,7 +686,7 @@ export const blogData = [
       image: blog6,
       title: 'Como Criar uma Experiência Imersiva em Eventos de Grande Porte',
       date: '19th June 2023',
-      time: '7 min read',
+      time: '7 min',
       tag: 'Experiência',
       company: 'ImmersionEvents'
     },
@@ -542,7 +695,7 @@ export const blogData = [
       image: blog7,
       title: 'Dicas para Gerenciar Eventos Virtuais de Forma Eficiente',
       date: '20th June 2023',
-      time: '5 min read',
+      time: '5 min',
       tag: 'Eventos Virtuais',
       company: 'VirtualConnect'
     },
@@ -551,7 +704,7 @@ export const blogData = [
       image: blog8,
       title: 'O Papel do Marketing na Promoção de Eventos de Grande Escala',
       date: '31st Aug 2023',
-      time: '5 min read',
+      time: '5 min',
       tag: 'Marketing',
       company: 'PromoEvents'
     },
@@ -560,7 +713,7 @@ export const blogData = [
       image: blog9,
       title: 'Como a Tecnologia Está Transformando o Mundo dos Eventos',
       date: '1st Sep 2024',
-      time: '6 min read',
+      time: '6 min',
       tag: 'Tecnologia',
       company: 'TechEvents'
     }

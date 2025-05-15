@@ -41,7 +41,7 @@ export default function Companies(){
             <div className="col-lg-6 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0 order-md-1 order-2">
                 <div className="section-title mb-4 me-lg-5">
                     <h4 className="title mb-3">As melhores empresas.</h4>
-                    <p className="text-muted para-desc mb-0">Encontra gigs nos maiores produtores de eventos do país. <br></br>São mais de 1000 vagas em Portugal.</p>
+                    <p className="text-muted para-desc mb-0">Conheça as empresas que fazem os eventos acontecerem. </p>
                 </div>
 
                 <div className="row g-4 mt-0">
@@ -54,7 +54,7 @@ export default function Companies(){
         
                                         <div className="content ms-3">
                                             <Link to="/employer-profile" className="h5 title text-dark">{item.name}</Link>
-                                            <span className="text-muted d-flex align-items-center small mt-1">{item.vacancy} vacancy</span>
+                                            <span className="text-muted d-flex align-items-center small mt-1">{item.vacancy} {item.vacancy > 1 ? 'Boras' : 'Bora'}</span>
                                         </div>
                                     </div>
                                 </div>

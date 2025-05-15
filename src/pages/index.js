@@ -23,76 +23,66 @@ import ScrollTop from '../componants/scrollTop';
 
 // import { jobData } from "../data/data";
 
-import {FiSearch,} from "../assets/icons/vander"
+import { FiSearch, } from "../assets/icons/vander"
 import NavbarBora from '../componants/navbarBora';
 
-export default function Index(){
-    return(
+export default function Index() {
+    return (
         <>
-        <NavbarBora navClass="defaultscroll sticky"/>
-        <section className="bg-half-170 d-table w-100 bg-primary" style={{backgroundImage:`url(${bg1})`, backgroundPosition:'center'}}>
-            <div className="container">
-                <div className="row g-4 align-items-center">
-                    <div className="col-md-6">
-                        <div className="title-heading">
-                            <h1 className="heading text-white fw-bold">Encontra <br/> o teu <i>freela</i> <br/> em eventos.</h1>
-                            <p className="para-desc text-white-50 mb-0">Eventos precisam de ti. Tu precisas de um freela. Nós fazemos o match.</p>
+            <NavbarBora navClass="defaultscroll sticky" />
+            <section className="bg-half-170 d-table w-100 bg-primary" style={{ backgroundImage: `url(${bg1})`, backgroundPosition: 'center' }}>
+                <div className="container">
+                    <div className="row g-4 align-items-center">
+                        <div className="col-md-6">
+                            <div className="title-heading">
+                                <h1 className="heading text-white fw-bold">O seu evento começa aqui</h1>
+                                <p className="para-desc text-white-50 mb-0">Nós fazemos o match. BORA mostrar o teu talento?</p>
+                                <button type="submit" className="btn btn-secondary btn-pills" style={{ marginTop: '25px' }}>Registrar-se</button>
 
-                            <div className="text-center subscribe-form mt-4">
-                                <form style={{maxWidth:'800px'}}>
-                                    <div className="mb-0">
-                                        <div className="position-relative">
-                                            <FiSearch className="fea icon-20 position-absolute top-50 start-0 translate-middle-y ms-3"/>
-                                            <input type="text" id="help" name="name" className="shadow rounded-pill bg-white ps-5" required="" placeholder="Search jobs & candidates ..."/>
-                                        </div>
-                                        <button type="submit" className="btn btn-primary btn-pills">Search</button>
-                                    </div>
-                                </form>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="col-md-6">
-                        <div className="position-relative ms-lg-5">
-                            <img src={hero1} className="img-fluid p-5" alt=""/>
+                        <div className="col-md-6">
+                            <div className="position-relative ms-lg-5">
+                                <img src={hero1} className="img-fluid p-5" alt="" />
 
-                            <div className="spinner">
-                                <div className="position-absolute top-0 start-0 mt-lg-5 mt-4 ms-lg-5 ms-4">
-                                    <img src={company1} className="avatar avatar-md-md rounded shadow p-2" alt=""/>
-                                </div>
-                                <div className="position-absolute top-0 start-50 translate-middle-x">
-                                    <img src={company2} className="avatar avatar-medium rounded shadow p-2 " alt=""/>
-                                </div>
-                                <div className="position-absolute top-0 end-0 mt-lg-5 mt-4 me-lg-5 me-4">
-                                    <img src={company3} className="avatar avatar-medium rounded shadow p-2 " alt=""/>
-                                </div>
-                                <div className="position-absolute top-50 start-0 translate-middle-y">
-                                    <img src={company4} className="avatar avatar-medium rounded shadow p-2 " alt=""/>
-                                </div>
-                                <div className="position-absolute top-50 end-0 translate-middle-y">
-                                    <img src={company5} className="avatar avatar-md-sm rounded shadow p-2" alt=""/>
-                                </div>
-                                <div className="position-absolute bottom-0 start-0 mb-lg-5 mb-4 ms-lg-5 ms-4">
-                                    <img src={company6} className="avatar avatar-md-sm rounded shadow p-2" alt=""/>
-                                </div>
-                                <div className="position-absolute bottom-0 start-50 translate-middle-x">
-                                    <img src={company7} className="avatar avatar-md-sm rounded shadow p-2" alt=""/>
-                                </div>
-                                <div className="position-absolute bottom-0 end-0 mb-lg-5 mb-4 me-lg-5 me-4">
-                                    <img src={company8} className="avatar avatar-md-sm rounded shadow p-2" alt=""/>
+                                <div className="spinner">
+                                    <div className="position-absolute top-0 start-0 mt-lg-5 mt-4 ms-lg-5 ms-4">
+                                        <img src={company1} className="avatar avatar-md-md rounded shadow p-2" alt="" />
+                                    </div>
+                                    <div className="position-absolute top-0 start-50 translate-middle-x">
+                                        <img src={company2} className="avatar avatar-medium rounded shadow p-2 " alt="" />
+                                    </div>
+                                    <div className="position-absolute top-0 end-0 mt-lg-5 mt-4 me-lg-5 me-4">
+                                        <img src={company3} className="avatar avatar-medium rounded shadow p-2 " alt="" />
+                                    </div>
+                                    <div className="position-absolute top-50 start-0 translate-middle-y">
+                                        <img src={company4} className="avatar avatar-medium rounded shadow p-2 " alt="" />
+                                    </div>
+                                    <div className="position-absolute top-50 end-0 translate-middle-y">
+                                        <img src={company5} className="avatar avatar-md-sm rounded shadow p-2" alt="" />
+                                    </div>
+                                    <div className="position-absolute bottom-0 start-0 mb-lg-5 mb-4 ms-lg-5 ms-4">
+                                        <img src={company6} className="avatar avatar-md-sm rounded shadow p-2" alt="" />
+                                    </div>
+                                    <div className="position-absolute bottom-0 start-50 translate-middle-x">
+                                        <img src={company7} className="avatar avatar-md-sm rounded shadow p-2" alt="" />
+                                    </div>
+                                    <div className="position-absolute bottom-0 end-0 mb-lg-5 mb-4 me-lg-5 me-4">
+                                        <img src={company8} className="avatar avatar-md-sm rounded shadow p-2" alt="" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section className="section">
-            <AboutUs containerClass="container"/>
-            <Categories/>
+            <section className="section">
+                <AboutUs containerClass="container" />
+                <Categories />
 
-            {/* <div className="container mt-100 mt-60">
+                {/* <div className="container mt-100 mt-60">
                 <div className="row align-items-end mb-4 pb-2">
                     <div className="col-lg-6 col-md-9">
                         <div className="section-title text-md-start text-center">
@@ -152,27 +142,40 @@ export default function Index(){
                 </div>
             </div> */}
 
-            {/* <AboutTwo/> */}
+                {/* <AboutTwo/> */}
 
-            <div className="container mt-100 mt-60">
-                <Companies/>
-            </div>
+                <div className="container mt-100 mt-60">
+                    <div className="row justify-content-center">
+                        <div className="col">
+                            <div className="section-title text-center mb-4 pb-2">
+                                <h4 className="title mb-3">A forma mais rápida de ser contratado para eventos.</h4>
+                                <p className="text-muted para-desc mb-0 mx-auto">Liga-te aos eventos certos, no momento certo. <br></br>BORA destacar as tuas skills e impulsiona o teu perfil.</p>
+                                <button type="submit" className="btn btn-secondary btn-pills" style={{ marginTop: '25px' }}>sUBSCREVE O PREMIUM</button>
 
-            <div className="container mt-100 mt-60">
-                <div className="row justify-content-center">
-                    <div className="col">
-                        <div className="section-title text-center mb-4 pb-2">
-                            <h4 className="title mb-3">Do nosso Blog</h4>
-                            <p className="text-muted para-desc mb-0 mx-auto">Conheça o mercado e saiba como se preparar para as oportunidades!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <Blog/>
-            </div>
-        </section>
-        <Footer/>
-        <ScrollTop/>
+                <div className="container mt-100 mt-60">
+                    <Companies />
+                </div>
+
+                <div className="container mt-100 mt-60">
+                    <div className="row justify-content-center">
+                        <div className="col">
+                            <div className="section-title text-center mb-4 pb-2">
+                                <h4 className="title mb-3">Do nosso Blog</h4>
+                                <p className="text-muted para-desc mb-0 mx-auto">Conheça o mercado e saiba como se preparar para as oportunidades!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <Blog />
+                </div>
+            </section>
+            <Footer />
+            <ScrollTop />
         </>
     )
 }

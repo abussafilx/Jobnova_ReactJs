@@ -20,7 +20,7 @@ export default function AboutUs() {
                     <div className="row mt-5 justify-content-center">
                         <div className="col-12">
                             <div className="title-heading text-center">
-                                <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">About Us</h5>
+                                <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">Sobre Nós</h5>
                             </div>
                         </div>
                     </div>
@@ -28,8 +28,8 @@ export default function AboutUs() {
                     <div className="position-middle-bottom">
                         <nav aria-label="breadcrumb" className="d-block">
                             <ul className="breadcrumb breadcrumb-muted mb-0 p-0">
-                                <li className="breadcrumb-item"><Link to="/">Jobnova</Link></li>
-                                <li className="breadcrumb-item active" aria-current="page">About us</li>
+                                <li className="breadcrumb-item"><Link to="/">Bora!</Link></li>
+                                <li className="breadcrumb-item active" aria-current="page">Sobre Nós</li>
                             </ul>
                         </nav>
                     </div>

@@ -32,8 +32,8 @@ export default function Blog(){
                                     <Link to={`/blog-detail/${item.id}`} className="title fw-semibold fs-5 text-dark">{item.title}</Link>
                                     
                                     <ul className="list-unstyled d-flex justify-content-between align-items-center text-muted mb-0 mt-3">
-                                        <li className="list-inline-item me-2"><Link to="" className="btn btn-link primary text-dark">Read Now <i className="mdi mdi-arrow-right"></i></Link></li>
-                                        <li className="list-inline-item"><span className="text-dark">By</span> <Link to="" className="text-muted link-title">{item.company}</Link></li>
+                                        <li className="list-inline-item me-2"><Link to="" className="btn btn-link primary text-dark">Ler mais <i className="mdi mdi-arrow-right"></i></Link></li>
+                                        <li className="list-inline-item"><span className="text-dark">Por</span> <Link to="" className="text-muted link-title">{item.company}</Link></li>
                                     </ul>
                                 </div>
                             </div>
