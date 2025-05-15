@@ -131,9 +131,9 @@ export default function NavbarBora({navClass, navLight}){
                     <li className={`${["", "index","index-two", "index-three"].includes(manu)? "active" : ""} has-submenu parent-menu-item`}>
                         <Link to="/index">Home</Link><span className="menu-arrow"></span>
                         <ul className="submenu">
-                            <li className={manu === "index" || "" ? "active" : ""}><Link to="/index" className="sub-menu-item">Home Freelancers</Link></li>
+                            <li className={manu === "index" || "" ? "active" : ""}><Link to="/index" className="sub-menu-item">Perfil Freelancers</Link></li>
 
-                            <li className={manu === "index-three" ? "active" : ""}><Link to="/index-three" className="sub-menu-item">Home Empresas</Link></li>
+                            <li className={manu === "index-three" ? "active" : ""}><Link to="/index-three" className="sub-menu-item">Perfil Empresas</Link></li>
                         </ul>
                     </li>
 

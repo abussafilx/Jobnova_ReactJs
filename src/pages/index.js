@@ -30,7 +30,7 @@ export default function Index() {
     return (
         <>
             <NavbarBora navClass="defaultscroll sticky" />
-            <section className="bg-half-170 d-table w-100 bg-primary" style={{ backgroundImage: `url(${bg1})`, backgroundPosition: 'center' }}>
+            <section className="bg-half-170 d-table pt-5 w-100 bg-primary" style={{ backgroundImage: `url(${bg1})`, backgroundPosition: 'center' }}>
                 <div className="container">
                     <div className="row g-4 align-items-center">
                         <div className="col-md-6">
