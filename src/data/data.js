@@ -2,10 +2,10 @@ import company1 from "../assets/images/company/1.png"
 import company2 from "../assets/images/company/2.png"
 import company3 from "../assets/images/company/3.png"
 import company4 from "../assets/images/company/4.png"
-import company5 from "../assets/images/company/spotify.png"
-import company6 from "../assets/images/company/linkedin.png"
-import company7 from "../assets/images/company/circle-logo.png"
-import company8 from "../assets/images/company/skype.png"
+import company5 from "../assets/images/company/5.png"
+import company6 from "../assets/images/company/6.png"
+import company7 from "../assets/images/company/7.png"
+import company8 from "../assets/images/company/8.png"
 import company9 from "../assets/images/company/snapchat.png"
 import company10 from "../assets/images/company/shree-logo.png"
 import company11 from "../assets/images/company/telegram.png"
@@ -487,7 +487,7 @@ export const jobDataBoost = [
     {
       id: 4,
       image: company4,
-      name: 'Rituais',
+      name: 'Meet inc travel',
       title: 'Tour guiado pela Baixa de Lisboa',
       country: 'Portugal',
       city: 'Lisboa',
@@ -502,7 +502,7 @@ export const jobDataBoost = [
     {
       id: 5,
       image: company5,
-      name: 'Private Affairs',
+      name: 'Rituais',
       title: 'Apoio logístico Congresso Português de Cardiologia',
       country: 'Portugal',
       city: 'Lisboa',

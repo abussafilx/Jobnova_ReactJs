@@ -17,7 +17,7 @@ export default function JobPost(){
                 <div className="row mt-5 justify-content-center">
                     <div className="col-12">
                         <div className="title-heading text-center">
-                            <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">Create a Job Post</h5>
+                            <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">Criar Vaga</h5>
                         </div>
                     </div>
                 </div>
@@ -26,8 +26,8 @@ export default function JobPost(){
                     <nav aria-label="breadcrumb" className="d-block">
                         <ul className="breadcrumb breadcrumb-muted mb-0 p-0">
                             <li className="breadcrumb-item"><Link to="/">Jobnova</Link></li>
-                            <li className="breadcrumb-item"><Link to="/job-grid-one">Job</Link></li>
-                            <li className="breadcrumb-item active" aria-current="page">Job Post</li>
+                            <li className="breadcrumb-item"><Link to="/job-grid-one">Vagas</Link></li>
+                            <li className="breadcrumb-item active" aria-current="page">Criar Vaga</li>
                         </ul>
                     </nav>
                 </div>
@@ -48,49 +48,49 @@ export default function JobPost(){
                         <div className="card border-0">
                             <form className="rounded shadow p-4">
                                 <div className="row">
-                                    <h5 className="mb-3">Job Details:</h5>                                    
+                                    <h5 className="mb-3">Detalhes da Vaga:</h5>                                    
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Job Title :</label>
-                                            <input name="subject" id="subject2" className="form-control" placeholder="Title :"/>
-                                        </div>                                                                               
+                                            <label className="form-label fw-semibold">Título da Vaga:</label>
+                                            <input name="subject" id="subject2" className="form-control" placeholder="Título:"/>
+                                        </div>                                                                                
                                     </div>
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Description :</label>
-                                            <textarea name="comments" id="comments2" rows="4" className="form-control" placeholder="Describe the job :"></textarea>
+                                            <label className="form-label fw-semibold">Descrição:</label>
+                                            <textarea name="comments" id="comments2" rows="4" className="form-control" placeholder="Descreva a vaga:"></textarea>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Job Type:</label>
+                                            <label className="form-label fw-semibold">Tipo de vaga:</label>
                                             <select className="form-control form-select" id="Type">
-                                                <option value="WD">Web Designer</option>
-                                                <option value="WD">Web Developer</option>
-                                                <option value="UI">UI / UX Desinger</option>
+                                                <option value="WD">Designer Web</option>
+                                                <option value="WD">Desenvolvedor Web</option>
+                                                <option value="UI">Designer UI / UX</option>
                                             </select>
                                         </div>
                                     </div>
 
                                     <div className="col-md-6">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Job Categories:</label>
+                                            <label className="form-label fw-semibold">Categoria:</label>
                                             <select className="form-control form-select" id="Categories">
-                                                <option>All Jobs</option>
-                                                <option>Full Time</option>
-                                                <option>Half Time</option>
-                                                <option>Remote</option>
-                                                <option>In Office</option>
+                                                <option>Todas</option>
+                                                <option>Período Integral</option>
+                                                <option>Meio Período</option>
+                                                <option>Remoto</option>
+                                                <option>Presencial</option>
                                             </select>
                                         </div>
                                     </div>
 
                                     <div className="col-md-6">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Salary:</label>
+                                            <label className="form-label fw-semibold">Salário:</label>
                                             <select className="form-control form-select" id="Salary">
-                                                <option value="HOURL">Hourly</option>
-                                                <option value="MONTH">Monthly</option>
+                                                <option value="HOURL">Por hora</option>
+                                                <option value="MONTH">Mensal</option>
                                             </select>
                                         </div>
                                     </div>
@@ -99,8 +99,8 @@ export default function JobPost(){
                                         <div className="mb-3 mt-md-4 pt-md-1">
                                             <label className="form-label small fw-bold d-none"></label>
                                             <div className="input-group mb-3">
-                                                <span className="input-group-text border" id="basic-addon1">$</span>
-                                                <input type="number" className="form-control" min="1" max="1000" placeholder="Min" id="MIn" aria-describedby="inputGroupPrepend" required/>
+                                                <span className="input-group-text border" id="basic-addon1">€</span>
+                                                <input type="number" className="form-control" min="1" max="1000" placeholder="Mín." id="MIn" aria-describedby="inputGroupPrepend" required/>
                                             </div>
                                         </div>
                                     </div>
@@ -109,63 +109,63 @@ export default function JobPost(){
                                         <div className="mb-3 mt-md-4 pt-md-1">
                                             <label className="form-label small fw-bold d-none"></label>
                                             <div className="input-group mb-3">
-                                                <span className="input-group-text border" id="basic-addon1">$</span>
-                                                <input type="number" className="form-control" min="1" max="1000" placeholder="Max" id="Max" aria-describedby="inputGroupPrepend" required/>
+                                                <span className="input-group-text border" id="basic-addon1">€</span>
+                                                <input type="number" className="form-control" min="1" max="1000" placeholder="Máx." id="Max" aria-describedby="inputGroupPrepend" required/>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="row">
-                                    <h5 className="mb-3">Skill & Experience:</h5>
+                                    <h5 className="mb-3">Habilidades e Experiência:</h5>
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Skills:</label>
-                                            <input name="name" id="skills" type="text" className="form-control" placeholder="Web Developer"/>
+                                            <label className="form-label fw-semibold">Habilidades:</label>
+                                            <input name="name" id="skills" type="text" className="form-control" placeholder="Ex: Trabalho em equipe, liderança"/>
                                         </div>
                                     </div>
 
                                     <div className="col-md-6">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Qualifications:</label>
-                                            <input name="name" id="Qualifications" type="text" className="form-control" placeholder="Qualifications"/>
+                                            <label className="form-label fw-semibold">Formação:</label>
+                                            <input name="name" id="Qualifications" type="text" className="form-control" placeholder="Ex: Ensino Médio, Licenciatura"/>
                                         </div>
                                     </div>
 
                                     <div className="col-md-6">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Experience:</label>
-                                            <input name="name" id="Experience" type="text" className="form-control" placeholder="Experience"/>
+                                            <label className="form-label fw-semibold">Experiência:</label>
+                                            <input name="name" id="Experience" type="text" className="form-control" placeholder="Ex: 2 anos"/>
                                         </div>
                                     </div>
 
                                     <div className="col-md-6">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Industry:</label>
+                                            <label className="form-label fw-semibold">Indústria:</label>
                                             <select className="form-control form-select" id="Industry">
-                                                <option value="BANK">Banking</option>
-                                                <option value="BIO">Biotechnology</option>
-                                                <option value="AVI">Aviation</option>
+                                                <option value="BANK">Bancário</option>
+                                                <option value="BIO">Biotecnologia</option>
+                                                <option value="AVI">Aviação</option>
                                             </select>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="row">
-                                    <h5 className="mb-3">Skill & Experience:</h5>
+                                    <h5 className="mb-3">Localização:</h5>
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Address:</label>
-                                            <input name="name" id="Address" type="text" className="form-control" placeholder="Address"/>
+                                            <label className="form-label fw-semibold">Endereço:</label>
+                                            <input name="name" id="Address" type="text" className="form-control" placeholder="Endereço"/>
                                         </div>
                                     </div>
 
                                     <div className="col-md-6">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Country:</label>
+                                            <label className="form-label fw-semibold">País:</label>
                                             <select className="form-control form-select" id="Country">
-                                                <option value="USA">USA</option>
-                                                <option value="CAD">Canada</option>
+                                                <option value="USA">Estados Unidos</option>
+                                                <option value="CAD">Canadá</option>
                                                 <option value="CHINA">China</option>
                                             </select>
                                         </div>
@@ -173,11 +173,11 @@ export default function JobPost(){
 
                                     <div className="col-md-6">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">State:</label>
+                                            <label className="form-label fw-semibold">Estado:</label>
                                             <select className="form-control form-select" id="State">
-                                                <option value="CAL">California</option>
+                                                <option value="CAL">Califórnia</option>
                                                 <option value="TEX">Texas</option>
-                                                <option value="FLOR">Florida</option>
+                                                <option value="FLOR">Flórida</option>
                                             </select>
                                         </div>
                                     </div>
@@ -193,7 +193,7 @@ export default function JobPost(){
 
                                 <div className="row">
                                     <div className="col-12">
-                                        <input type="submit" id="submit2" name="send" className="submitBnt btn btn-primary" value="Post Now"/>
+                                        <input type="submit" id="submit2" name="send" className="submitBnt btn btn-primary" value="Publicar Vaga"/>
                                     </div>
                                 </div>
                             </form>
@@ -202,7 +202,7 @@ export default function JobPost(){
                 </div>
             </div>
         </section>
-        <Footer top={true} />
+        <Footer top={false} />
         <ScrollTop/>
         </>
     )

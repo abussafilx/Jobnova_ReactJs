@@ -12,7 +12,7 @@ import Blog from '../componants/blog';
 import Footer from '../componants/footer';
 import ScrollTop from '../componants/scrollTop';
 
-import { FiSearch, FiClock, FiMapPin, FiDollarSign } from "../assets/icons/vander";
+import { FiClock, FiMapPin, FiDollarSign } from "../assets/icons/vander";
 
 import ModalVideo from 'react-modal-video';
 import '../../node_modules/react-modal-video/scss/modal-video.scss';
@@ -25,16 +25,21 @@ export default function IndexThree() {
     return (
         <>
             <NavbarBora navClass="defaultscroll sticky" navLight={true} />
-            <section className="bg-half-260 pb-lg-0 pb-md-4 bg-primary d-table w-100" style={{ backgroundImage: `url(${bg1})` }} id="home">
+            <section className="bg-half-260 pb-lg-5 pb-md-4 pt-5 bg-primary d-table w-100" style={{ backgroundImage: `url(${bg1})` }} id="home">
                 <div className="bg-overlay bg-black" style={{ opacity: '0.8' }}></div>
                 <div className="container">
+                                                    <div className="mt-2">
+                                    <span className="text-white-50"><span className="text-white"></span><br></br><br></br></span>
+                                    
+                                </div>
                     <div className="row g-4 position-relative z-1">
                         <div className="col-lg-7 col-md-6 col-12 mt-lg-5">
                             <div className="title-heading">
                                 <h1 className="heading text-white title-dark mb-4"> Menos tempo a recrutar.  <br /> Mais tempo a produzir.</h1>
-                                <p className="para-desc text-white-50">A Bora conecta a sua empresa com freelancers altamente qualificados, prontos para contribuir com sua expertise quando você mais precisa.</p>
+                                <p className="para-desc text-white-50">A BORA Eventos conecta a sua empresa com freelancers altamente qualificados prontos para contribuir com a sua expertise quando você mais precisa.</p>
+                                <button type="submit" className="btn btn-secondary btn-pills" style={{ marginTop: '25px' }}>Postar vaga</button>
 
-                                <div className="d-md-flex justify-content-between align-items-center bg-white shadow rounded p-2 mt-4">
+                                {/* <div className="d-md-flex justify-content-between align-items-center bg-white shadow rounded p-2 mt-4">
                                     <form className="card-body text-start">
                                         <div className="registration-form text-dark text-start">
                                             <div className="row g-lg-0">
@@ -54,9 +59,9 @@ export default function IndexThree() {
                                             </div>
                                         </div>
                                     </form>
-                                </div>
+                                </div> */}
                                 <div className="mt-2">
-                                    <span className="text-white-50"><span className="text-white">Funções populares :</span> Designer, Desenvolvedor, Web, IOS, PHP Senior Engineer</span>
+                                    <span className="text-white-50"><span className="text-white"></span></span>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +91,7 @@ export default function IndexThree() {
             <section className="section">
                 <Counter />
 
-                <div className="container mt-100 mt-60">
+               {/* <div className="container mt-100 mt-60">
                     <div className="row justify-content-center mb-4 pb-2">
                         <div className="col-12">
                             <div className="section-title text-center">
@@ -118,14 +123,14 @@ export default function IndexThree() {
                                                 <Link to="/employer-profile" className="h5 company text-dark">{item.name}</Link>
                                                 <span className="text-muted d-flex align-items-center mt-1"><FiMapPin className="fea icon-sm me-1" />{item.country}</span>
                                             </div>
-                                        </div>
+                                        </div> 
                                     </div>
                                 </div>
                             )
                         })}
                     </div>
                 </div>
-                <AboutUs containerClass="container mt-100 mt-60" />
+                <AboutUs containerClass="container mt-100 mt-60" /> */}
 
                 <div className="container mt-100 mt-60">
                     <div className="row justify-content-center mb-4 pb-2">

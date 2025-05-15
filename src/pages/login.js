@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import bg1 from '../assets/images/hero/bg3.jpg'
-import logo from '../assets/images/logo-dark.png'
+import logo from '../assets/images/logobora2.png'
 
 export default function Login(){
     return(
@@ -14,10 +14,10 @@ export default function Login(){
                         <div className="p-4 bg-white rounded shadow-md mx-auto w-100" style={{maxWidth:'400px'}}>
                             <form>
                                 <Link to="/"><img src={logo} className="mb-4 d-block mx-auto" alt=""/></Link>
-                                <h6 className="mb-3 text-uppercase fw-semibold">Please sign in</h6>
+                                <h6 className="mb-3 text-uppercase fw-semibold">sign in</h6>
                             
                                 <div className="mb-3">
-                                    <label className="form-label fw-semibold">Your Email</label>
+                                    <label className="form-label fw-semibold">Email</label>
                                     <input name="email" id="email" type="email" className="form-control" placeholder="example@website.com"/>
                                 </div>
 
@@ -30,16 +30,16 @@ export default function Login(){
                                     <div className="mb-3">
                                         <div className="form-check">
                                             <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                                            <label className="form-label form-check-label text-muted" htmlFor="flexCheckDefault">Remember me</label>
+                                            <label className="form-label form-check-label text-muted" htmlFor="flexCheckDefault">Lembrar-me</label>
                                         </div>
                                     </div>
-                                    <span className="forgot-pass text-muted small mb-0"><Link to="/reset-password" className="text-muted">Forgot password ?</Link></span>
+                                    <span className="forgot-pass text-muted small mb-0"><Link to="/reset-password" className="text-muted">Esqueceu a senha?</Link></span>
                                 </div>
                 
                                 <button className="btn btn-primary w-100" type="submit">Sign in</button>
 
                                 <div className="col-12 text-center mt-3">
-                                    <span><span className="text-muted me-2 small">Don't have an account ?</span> <Link to="/signup" className="text-dark fw-semibold small">Sign Up</Link></span>
+                                    <span><span className="text-muted me-2 small">Não tem uma conta?</span> <Link to="/signup" className="text-dark fw-semibold small">Sign Up</Link></span>
                                 </div>
                             </form>
                         </div>

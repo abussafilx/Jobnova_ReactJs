@@ -21,7 +21,7 @@ export default function Candidates(){
                 <div className="row mt-5 justify-content-center">
                     <div className="col-12">
                         <div className="title-heading text-center">
-                            <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">Candidates</h5>
+                            <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark">Candidatos</h5>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export default function Candidates(){
                     <nav aria-label="breadcrumb" className="d-block">
                         <ul className="breadcrumb breadcrumb-muted mb-0 p-0">
                             <li className="breadcrumb-item"><Link to="/">Jobnova</Link></li>
-                            <li className="breadcrumb-item active" aria-current="page">Candidates</li>
+                            <li className="breadcrumb-item active" aria-current="page">Candidatos</li>
                         </ul>
                     </nav>
                 </div>
@@ -68,18 +68,18 @@ export default function Candidates(){
 
                                         <div className="mt-2 d-flex align-items-center justify-content-between">
                                             <div className="text-center">
-                                                <p className="text-muted fw-medium mb-0">Salary:</p>
+                                                <p className="text-muted fw-medium mb-0">Salário:</p>
                                                 <p className="mb-0 fw-medium">{item.salary}</p>
                                             </div>
 
                                             <div className="text-center">
-                                                <p className="text-muted fw-medium mb-0">Experience:</p>
+                                                <p className="text-muted fw-medium mb-0">Experiência:</p>
                                                 <p className="mb-0 fw-medium">{item.experience}</p>
                                             </div>
                                         </div>
-                                        
+
                                         <div className="mt-3">
-                                            <Link to={`/candidate-profile/${item.id}`} className="btn btn-sm btn-primary me-1">View Profile</Link>
+                                            <Link to={`/candidate-profile/${item.id}`} className="btn btn-sm btn-primary me-1">Ver Perfil</Link>
                                             <Link to="/contactus" className="btn btn-sm btn-icon btn-soft-primary"><FiMessageCircle className="icons"/></Link>
                                         </div>
 
@@ -95,7 +95,7 @@ export default function Candidates(){
                     <div className="col-12 mt-4 pt-2">
                         <ul className="pagination justify-content-center mb-0">
                             <li className="page-item">
-                                <Link className="page-link" to="#" aria-label="Previous">
+                                <Link className="page-link" to="#" aria-label="Anterior">
                                     <span aria-hidden="true"><i className="mdi mdi-chevron-left fs-6"></i></span>
                                 </Link>
                             </li>
@@ -103,7 +103,7 @@ export default function Candidates(){
                             <li className="page-item active"><Link className="page-link" to="#">2</Link></li>
                             <li className="page-item"><Link className="page-link" to="#">3</Link></li>
                             <li className="page-item">
-                                <Link className="page-link" to="#" aria-label="Next">
+                                <Link className="page-link" to="#" aria-label="Próximo">
                                     <span aria-hidden="true"><i className="mdi mdi-chevron-right fs-6"></i></span>
                                 </Link>
                             </li>

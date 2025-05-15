@@ -1,14 +1,13 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 
-
 import bg1 from "../assets/images/hero/bg5.jpg"
-import company1 from "../assets/images/company/linkedin.png"
-import company2 from "../assets/images/company/lenovo-logo.png"
+import company1 from "../assets/images/company/1.png"
+import company2 from "../assets/images/company/6.png"
 import pdf from "../assets/images/calvin-carlo-resume.pdf"
 import image1 from "../assets/images/team/01.jpg"
 
-import NavbarDark from "../componants/navbarBora";
+import NavbarDark from "../componants/navbarDark";
 import Footer from "../componants/footer";
 import ScrollTop from "../componants/scrollTop";
 
@@ -35,8 +34,8 @@ export default function CandidateProfile(){
                                     <img src={data?.image ? data.image : image1} className="rounded-pill shadow border border-3 avatar avatar-medium" alt=""/>
 
                                     <div className="ms-2">
-                                        <h5 className="mb-0">Mr. {data?.name ? data.name : 'Calvin Carlo'}</h5>
-                                        <p className="text-muted mb-0">{data?.post ? data.post :'Web Designer'}</p>
+                                        <h5 className="mb-0">{data?.name ? data.name : 'Carlos Silva'}</h5>
+                                        <p className="text-muted mb-0">Profissional de Eventos</p>
                                     </div>
                                 </div>
 
@@ -50,12 +49,12 @@ export default function CandidateProfile(){
             <div className="container mt-4">
                 <div className="row g-4">
                     <div className="col-lg-8 col-md-7 col-12">
-                        <h5 className="mb-4">Introduction:</h5>
+                        <h5 className="mb-4">Apresentação:</h5>
 
-                        <p className="text-muted">Obviously I'M Web Developer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using 'Content here, content here', making it look like readable English.</p>
-                        <p className="text-muted">Data Structures and Algorithms are the heart of programming. Initially most of the developers do not realize its importance but when you will start your career in software development, you will find your code is either taking too much time or taking too much space.</p>
+                        <p className="text-muted">Sou um profissional com mais de 5 anos de experiência na organização e coordenação de eventos corporativos, sociais e culturais. Tenho facilidade em lidar com o público, resolver imprevistos e garantir que cada detalhe seja executado com excelência.</p>
+                        <p className="text-muted">Já atuei como coordenador de equipe, mestre de cerimônias e responsável pela logística de eventos de pequeno e grande porte. Sou proativo, comunicativo e apaixonado por transformar ideias em experiências memoráveis.</p>
 
-                        <h5 className="mt-4">Skills:</h5>
+                        <h5 className="mt-4">Competências:</h5>
 
                         <div className="row">
                             <div className="col-lg-6 col-12">
@@ -89,194 +88,82 @@ export default function CandidateProfile(){
                             </div>
                         </div>
 
-                        <h5 className="mt-4">Experience:</h5>
+                        <h5 className="mt-4">Experiência:</h5>
 
                         <div className="row">
                             <div className="col-12 mt-4">
                                 <div className="d-flex">
                                     <div className="text-center">
                                         <img src={company1} className="avatar avatar-small bg-white shadow p-2 rounded" alt=""/>
-                                        <h6 className="text-muted mt-2 mb-0">2019-22</h6>
+                                        <h6 className="text-muted mt-2 mb-0">2021-2024</h6>
                                     </div>
 
                                     <div className="ms-3">
-                                        <h6 className="mb-0">Full Stack Developer</h6>
-                                        <p className="text-muted">Linkedin - U.S.A.</p>
-                                        <p className="text-muted mb-0">It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text.</p>
+                                        <h6 className="mb-0">Coordenador de Eventos</h6>
+                                        <p className="text-muted">Agência XYZ - Brasil</p>
+                                        <p className="text-muted mb-0">Responsável por planejar, organizar e executar eventos corporativos e treinamentos internos, gerindo equipes de apoio, fornecedores e cronogramas com foco em excelência e experiência do participante.</p>
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div className="col-12 mt-4">
                                 <div className="d-flex">
                                     <div className="text-center">
                                         <img src={company2} className="avatar avatar-small bg-white shadow p-2 rounded" alt=""/>
-                                        <h6 className="text-muted mt-2 mb-0">2017-19</h6>
+                                        <h6 className="text-muted mt-2 mb-0">2018-2021</h6>
                                     </div>
 
                                     <div className="ms-3">
-                                        <h6 className="mb-0">Back-end Developer</h6>
-                                        <p className="text-muted">Lenovo - China</p>
-                                        <p className="text-muted mb-0">It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text.</p>
+                                        <h6 className="mb-0">Animador e Mestre de Cerimônias</h6>
+                                        <p className="text-muted">Eventos & Cia - Brasil</p>
+                                        <p className="text-muted mb-0">Atuação em eventos sociais e corporativos com foco em entretenimento, interação com o público e condução de atividades e cerimônias com desenvoltura e profissionalismo.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div className="p-4 rounded shadow mt-4">
-                            <h5>Get in touch !</h5>
+                            <h5>Entre em Contato</h5>
                             <form className="mt-4">
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Your Name <span className="text-danger">*</span></label>
-                                            <input name="name" id="name" type="text" className="form-control" placeholder="Name :"/>
+                                            <label className="form-label fw-semibold">Seu Nome <span className="text-danger">*</span></label>
+                                            <input name="name" id="name" type="text" className="form-control" placeholder="Nome:"/>
                                         </div>
                                     </div>
-    
+
                                     <div className="col-md-6">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Your Email <span className="text-danger">*</span></label>
-                                            <input name="email" id="email" type="email" className="form-control" placeholder="Email :"/>
+                                            <label className="form-label fw-semibold">Seu Email <span className="text-danger">*</span></label>
+                                            <input name="email" id="email" type="email" className="form-control" placeholder="Email:"/>
                                         </div> 
                                     </div>
-    
+
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Subject</label>
-                                            <input name="subject" id="subject" className="form-control" placeholder="Subject :"/>
+                                            <label className="form-label fw-semibold">Assunto</label>
+                                            <input name="subject" id="subject" className="form-control" placeholder="Assunto:"/>
                                         </div>
                                     </div>
-    
+
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Comments <span className="text-danger">*</span></label>
-                                            <textarea name="comments" id="comments" rows="4" className="form-control" placeholder="Message :"></textarea>
+                                            <label className="form-label fw-semibold">Mensagem <span className="text-danger">*</span></label>
+                                            <textarea name="comments" id="comments" rows="4" className="form-control" placeholder="Mensagem:"></textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-12">
                                         <div className="d-grid">
-                                            <button type="submit" id="submit" name="send" className="btn btn-primary">Send Message</button>
+                                            <button type="submit" id="submit" name="send" className="btn btn-primary">Enviar Mensagem</button>
                                         </div>
                                     </div>
                                 </div>
                             </form>
                         </div>
                     </div>
-                    
-                    <div className="col-lg-4 col-md-5 col-12">
-                        <div className="card bg-light p-4 rounded shadow sticky-bar">
-                            <h5 className="mb-0">Personal Detail:</h5>
-                            <div className="mt-3">
-                                <div className="d-flex align-items-center justify-content-between mt-3">
-                                    <span className="d-inline-flex align-items-center text-muted fw-medium"><FiMail className="fea icon-sm me-2"/> Email:</span>
-                                    <span className="fw-medium">thomas@mail.com</span>
-                                </div>
-
-                                <div className="d-flex align-items-center justify-content-between mt-3">
-                                    <span className="d-inline-flex align-items-center text-muted fw-medium"><FiGift className="fea icon-sm me-2"/> D.O.B.:</span>
-                                    <span className="fw-medium">31st Dec, 1996</span>
-                                </div>
-
-                                <div className="d-flex align-items-center justify-content-between mt-3">
-                                    <span className="d-inline-flex align-items-center text-muted fw-medium"><FiHome className="fea icon-sm me-2"/> Address:</span>
-                                    <span className="fw-medium">15 Razy street</span>
-                                </div>
-
-                                <div className="d-flex align-items-center justify-content-between mt-3">
-                                    <span className="d-inline-flex align-items-center text-muted fw-medium"><FiMapPin className="fea icon-sm me-2"/> City:</span>
-                                    <span className="fw-medium">London</span>
-                                </div>
-
-                                <div className="d-flex align-items-center justify-content-between mt-3">
-                                    <span className="d-inline-flex align-items-center text-muted fw-medium"><FiGlobe className="fea icon-sm me-2"/> Country:</span>
-                                    <span className="fw-medium">UK</span>
-                                </div>
-
-                                <div className="d-flex align-items-center justify-content-between mt-3">
-                                    <span className="d-inline-flex align-items-center text-muted fw-medium"><FiPhone className="fea icon-sm me-2"/> Mobile:</span>
-                                    <span className="fw-medium">(+125) 1542-8452</span>
-                                </div>
-
-                                <div className="d-flex align-items-center justify-content-between mt-3">
-                                    <span className="text-muted fw-medium">Social:</span>
-                                    
-                                    <ul className="list-unstyled social-icon text-sm-end mb-0">
-                                        <li className="list-inline-item"><Link to="https://dribbble.com/shreethemes" target="_blank" className="rounded"><FiDribbble className="fea icon-sm align-middle"/></Link></li>
-                                        <li className="list-inline-item"><Link to="http://linkedin.com/company/shreethemes" target="_blank" className="rounded"><FiLinkedin className="fea icon-sm align-middle"/></Link></li>
-                                        <li className="list-inline-item"><Link to="https://www.facebook.com/shreethemes" target="_blank" className="rounded"><FiFacebook className="fea icon-sm align-middle"/></Link></li>
-                                        <li className="list-inline-item"><Link to="https://www.instagram.com/shreethemes/" target="_blank" className="rounded"><FiInstagram className="fea icon-sm align-middle"/></Link></li>
-                                        <li className="list-inline-item"><Link to="https://twitter.com/shreethemes" target="_blank" className="rounded"><FiTwitter className="fea icon-sm align-middle"/></Link></li>
-                                    </ul>
-                                </div>
-
-                                <div className="p-3 rounded shadow bg-white mt-2">
-                                    <div className="d-flex align-items-center mb-2">
-                                        <FiFileText className="fea icon-md"/>
-                                        <h6 className="mb-0 ms-2">calvin-carlo-resume.pdf</h6>
-                                    </div>
-
-                                    <Link to={pdf} download="pdf" target='_blank' className="btn btn-primary w-100"><FiDownload className="fea icon-sm me-1"/> Download CV</Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="container mt-100 mt-60">
-                <div className="row justify-content-center mb-4 pb-2">
-                    <div className="col-12">
-                        <div className="section-title text-center">
-                            <h4 className="title mb-3">Related Candidates</h4>
-                            <p className="text-muted para-desc mx-auto mb-0">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="row">
-                    {candidatesData.slice(0,4).map((item,index)=>{
-                        return(
-                        <div className="col-lg-3 col-md-4 col-sm-6 col-12 mt-4 pt-2" key={index}>
-                            <div className="candidate-card position-relative overflow-hidden text-center shadow rounded p-4">
-                                <div className="content">
-                                    <img src={item.image} className="avatar avatar-md-md rounded-pill shadow-md" alt=""/>
-
-                                    <div className="mt-3">
-                                        <Link to={`/candidate-profile/${item.id}`} className="title h5 text-dark">{item.name}</Link>
-                                        <p className="text-muted mt-1">{item.post}</p>
-
-                                        <span className="badge bg-soft-primary rounded-pill">Design</span>
-                                        <span className="badge bg-soft-primary rounded-pill">UI</span>
-                                        <span className="badge bg-soft-primary rounded-pill">UX</span>
-                                        <span className="badge bg-soft-primary rounded-pill">Digital</span>
-                                    </div>
-
-                                    <div className="mt-2 d-flex align-items-center justify-content-between">
-                                        <div className="text-center">
-                                            <p className="text-muted fw-medium mb-0">Salary:</p>
-                                            <p className="mb-0 fw-medium">{item.salary}</p>
-                                        </div>
-
-                                        <div className="text-center">
-                                            <p className="text-muted fw-medium mb-0">Experience:</p>
-                                            <p className="mb-0 fw-medium">{item.experience}</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="mt-3">
-                                        <Link to="/candidate-profile" className="btn btn-sm btn-primary me-1">View Profile</Link>
-                                        <Link to="/contactus" className="btn btn-sm btn-icon btn-soft-primary"><FiMessageCircle className="icons"/></Link>
-                                    </div>
-
-                                    <Link to="#" className="like"><i className="mdi mdi-heart align-middle fs-4"></i></Link>
-                                </div>
-                            </div>
-                        </div>
-                        )
-                    })}
                 </div>
             </div>
         </section>

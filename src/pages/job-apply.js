@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import bg1 from '../assets/images/hero/bg.jpg'
-import logo1 from '../assets/images/company/lenovo-logo.png'
+import logo1 from '../assets/images/company/2.png'
 
 import Navbar from "../componants/navbarBora";
 import Footer from "../componants/footer";
@@ -19,7 +19,7 @@ export default function JobApply(){
                     <div className="col-12">
                         <div className="title-heading text-center">
                             <img src={logo1} className="avatar avatar-small rounded-pill p-2 bg-white" alt=""/>
-                            <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark mt-3">Back-End Developer</h5>
+                            <h5 className="heading fw-semibold mb-0 sub-heading text-white title-dark mt-3">Monitor para Team Building</h5>
                         </div>
                     </div>
                 </div>
@@ -28,8 +28,8 @@ export default function JobApply(){
                     <nav aria-label="breadcrumb" className="d-block">
                         <ul className="breadcrumb breadcrumb-muted mb-0 p-0">
                             <li className="breadcrumb-item"><Link to="/">Jobnova</Link></li>
-                            <li className="breadcrumb-item"><Link to="/job-grid-one">Job</Link></li>
-                            <li className="breadcrumb-item active" aria-current="page">Job Apply</li>
+                            <li className="breadcrumb-item"><Link to="/job-grid-one">Vagas</Link></li>
+                            <li className="breadcrumb-item active" aria-current="page">Candidatura</li>
                         </ul>
                     </nav>
                 </div>
@@ -52,49 +52,49 @@ export default function JobApply(){
                                 <div className="row">
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Your Name :<span className="text-danger">*</span></label>
-                                            <input name="name" id="name2" type="text" className="form-control" placeholder="First Name :"/>
+                                            <label className="form-label fw-semibold">Seu nome:<span className="text-danger">*</span></label>
+                                            <input name="name" id="name2" type="text" className="form-control" placeholder="Nome completo:"/>
                                         </div>
                                     </div>
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Your Email :<span className="text-danger">*</span></label>
-                                            <input name="email" id="email2" type="email" className="form-control" placeholder="Your email :"/>
+                                            <label className="form-label fw-semibold">Seu email:<span className="text-danger">*</span></label>
+                                            <input name="email" id="email2" type="email" className="form-control" placeholder="Seu email:"/>
                                         </div> 
                                     </div>
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Your Phone no. :<span className="text-danger">*</span></label>
-                                            <input name="number" id="number2" type="number" className="form-control" placeholder="Your phone no. :"/>
+                                            <label className="form-label fw-semibold">Seu telefone:<span className="text-danger">*</span></label>
+                                            <input name="number" id="number2" type="number" className="form-control" placeholder="Número de telefone:"/>
                                         </div> 
                                     </div>
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Job Title :</label>
-                                            <input name="subject" id="subject2" className="form-control" placeholder="Title :"/>
+                                            <label className="form-label fw-semibold">Cargo pretendido:</label>
+                                            <input name="subject" id="subject2" className="form-control" placeholder="Monitor para Team Building"/>
                                         </div>                                                                               
                                     </div>
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Types of jobs :</label>
+                                            <label className="form-label fw-semibold">Tipo de vaga:</label>
                                             <select className="form-control form-select" id="Sortbylist-Shop">
-                                                <option>All Jobs</option>
-                                                <option>Full Time</option>
-                                                <option>Half Time</option>
-                                                <option>Remote</option>
-                                                <option>In Office</option>
+                                                <option>Todas</option>
+                                                <option>Período Integral</option>
+                                                <option>Meio Período</option>
+                                                <option>Remoto</option>
+                                                <option>Presencial</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label className="form-label fw-semibold">Description :</label>
-                                            <textarea name="comments" id="comments2" rows="4" className="form-control" placeholder="Describe the job :"></textarea>
+                                            <label className="form-label fw-semibold">Descrição:</label>
+                                            <textarea name="comments" id="comments2" rows="4" className="form-control" placeholder="Conte um pouco sobre você ou deixe uma mensagem:"></textarea>
                                         </div>
                                     </div>                                    
                                     <div className="col-12">
                                         <div className="mb-3">
-                                            <label htmlFor="formFile" className="form-label fw-semibold">Upload Your Cv / Resume :</label>
+                                            <label htmlFor="formFile" className="form-label fw-semibold">Envie o seu CV:</label>
                                             <input className="form-control" type="file" id="formFile"/>
                                         </div>                                                                               
                                     </div>
@@ -102,14 +102,14 @@ export default function JobApply(){
                                         <div className="mb-3">
                                             <div className="form-check">
                                                 <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                                                <label className="form-check-label" htmlFor="flexCheckDefault">I Accept <Link to="#" className="text-primary">Terms And Condition</Link></label>
+                                                <label className="form-check-label" htmlFor="flexCheckDefault">Aceito os <Link to="#" className="text-primary">Termos e Condições</Link></label>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-12">
-                                        <input type="submit" id="submit2" name="send" className="submitBnt btn btn-primary" value="Apply Now"/>
+                                        <input type="submit" id="submit2" name="send" className="submitBnt btn btn-primary" value="Enviar candidatura"/>
                                     </div>
                                 </div>
                             </form>
@@ -118,7 +118,7 @@ export default function JobApply(){
                 </div>
             </div>
         </section>
-        <Footer top={true}/>
+        <Footer top={false}/>
         <ScrollTop/>
         </>
     )
