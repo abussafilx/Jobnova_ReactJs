@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 import bg1 from "../assets/images/hero/bg5.jpg"
 import company1 from "../assets/images/company/1.png"
 import company2 from "../assets/images/company/6.png"
-import pdf from "../assets/images/calvin-carlo-resume.pdf"
+
 import image1 from "../assets/images/team/01.jpg"
 
 import NavbarDark from "../componants/navbarDark";

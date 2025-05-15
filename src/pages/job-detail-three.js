@@ -6,7 +6,7 @@ import NavbarDark from "../componants/navbarDark";
 import Footer from "../componants/footer"
 import ScrollTop from "../componants/scrollTop";
 
-import {FiLayout, FiMapPin,FiUserCheck, FiClock, FiMonitor, FiBriefcase, FiBook, FiDollarSign, FiArrowRight, FiBookmark,FiArrowUpRight} from "../assets/icons/vander"
+import {FiLayout, FiMapPin,FiUserCheck, FiClock, FiMonitor, FiBriefcase, FiBook, FiDollarSign, FiArrowRight,} from "../assets/icons/vander"
 import { jobData } from "../data/data";
 
 export default function JobDetailThree(){

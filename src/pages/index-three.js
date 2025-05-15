@@ -6,13 +6,13 @@ import heroImg from "../assets/images/hero.jpg";
 
 
 import Counter from '../componants/counter';
-import AboutUs from '../componants/aboutUs';
+
 
 import Blog from '../componants/blog';
 import Footer from '../componants/footer';
 import ScrollTop from '../componants/scrollTop';
 
-import { FiClock, FiMapPin, FiDollarSign } from "../assets/icons/vander";
+
 
 import ModalVideo from 'react-modal-video';
 import '../../node_modules/react-modal-video/scss/modal-video.scss';

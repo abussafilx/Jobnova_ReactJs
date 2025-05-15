@@ -7,7 +7,7 @@ import { LuSearch,FiUser,FiSettings,FiLock,FiLogOut } from "../assets/icons/vand
 
 export default function NavbarDark(){
     let [isOpen, setMenu] = useState(true);
-    let [scroll, setScroll] = useState(false);
+   
     let [search, setSearch] = useState(false);
     let [cartitem, setCartitem] = useState(false);
 
@@ -18,27 +18,8 @@ export default function NavbarDark(){
         setManu(current)
     },[location.pathname]);
 
-    useEffect(() => {
-        function scrollHandler() {
-            setScroll(window.scrollY > 50)
-          }
-        window.addEventListener('scroll', scrollHandler);
-
-        let searchModal = () => {setSearch(false)}
-        document.addEventListener('mousedown',searchModal);
-
-        let cartModal = () => {setCartitem(false)}
-        document.addEventListener('mousedown',cartModal);
-
-        window.scrollTo(0, 0);
-
-        return () => {
-            window.removeEventListener('scroll', scrollHandler);
-            document.removeEventListener('mousedown',searchModal);
-            document.removeEventListener('mousedown',cartModal);
-        };
-
-    }, []);
+   
+        
     const toggleMenu = () => {
         setMenu(!isOpen)
         if (document.getElementById("navigation")) {
