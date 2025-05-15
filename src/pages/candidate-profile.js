@@ -12,7 +12,7 @@ import Footer from "../componants/footer";
 import ScrollTop from "../componants/scrollTop";
 
 import { candidateSkill, candidatesData } from "../data/data";
-import {FiSettings, FiMail, FiGift, FiHome, FiMapPin, FiGlobe,FiPhone, FiDribbble, FiLinkedin, FiFacebook, FiInstagram, FiTwitter,FiDownload, FiMessageCircle, FiFileText} from "../assets/icons/vander"
+import {FiSettings,} from "../assets/icons/vander"
 
 export default function CandidateProfile(){
     let params = useParams();

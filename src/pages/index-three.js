@@ -17,7 +17,7 @@ import ScrollTop from '../componants/scrollTop';
 import ModalVideo from 'react-modal-video';
 import '../../node_modules/react-modal-video/scss/modal-video.scss';
 
-import { categoriesTwoData, jobData } from '../data/data';
+import { categoriesTwoData, } from '../data/data';
 import NavbarBora from '../componants/navbarBora';
 
 export default function IndexThree() {
