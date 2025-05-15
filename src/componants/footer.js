@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import logo from '../assets/images/logoborabgwhite.png'
+import logo from '../assets/images/boradark.png'
 
 import {FiShoppingCart, FiDribbble, FiLinkedin, FiFacebook, FiInstagram, FiTwitter,FiBookmark} from '../assets/icons/vander'
 
@@ -47,10 +47,10 @@ export default function Footer({top}){
                                 <div className="col-sm-9 mt-4 mt-sm-0">
                                     <ul className="list-unstyled footer-list terms-service text-center text-sm-end mb-0">
                                         <li className="list-inline-item my-2"><Link to="/index" className="text-foot fs-6 fw-medium me-2"><i className="mdi mdi-circle-small"></i> Home</Link></li>
-                                        <li className="list-inline-item my-2"><Link to="/services" className="text-foot fs-6 fw-medium me-2"><i className="mdi mdi-circle-small"></i> How it works</Link></li>
-                                        <li className="list-inline-item my-2"><Link to="/job-post" className="text-foot fs-6 fw-medium me-2"><i className="mdi mdi-circle-small"></i> Create a job</Link></li>
-                                        <li className="list-inline-item my-2"><Link to="/aboutus" className="text-foot fs-6 fw-medium me-2"><i className="mdi mdi-circle-small"></i> About us</Link></li>
-                                        <li className="list-inline-item my-2"><Link to="/pricing" className="text-foot fs-6 fw-medium"><i className="mdi mdi-circle-small"></i> Plans</Link></li>
+                                        <li className="list-inline-item my-2"><Link to="/services" className="text-foot fs-6 fw-medium me-2"><i className="mdi mdi-circle-small"></i> Como funciona?</Link></li>
+                                        <li className="list-inline-item my-2"><Link to="/job-post" className="text-foot fs-6 fw-medium me-2"><i className="mdi mdi-circle-small"></i> Anunciar vaga</Link></li>
+                                        <li className="list-inline-item my-2"><Link to="/aboutus" className="text-foot fs-6 fw-medium me-2"><i className="mdi mdi-circle-small"></i> Sobre nos</Link></li>
+                                        <li className="list-inline-item my-2"><Link to="/pricing" className="text-foot fs-6 fw-medium"><i className="mdi mdi-circle-small"></i> Premium</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@ export default function Footer({top}){
                     <div className="row align-items-center">
                         <div className="col-sm-6">
                             <div className="text-sm-start">
-                                <p className="mb-0 fw-medium">© {new Date().getFullYear()} Jobnova. Design with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0 fw-medium">© {new Date().getFullYear()} BORAeventos. All Rights Reserved.</p>
                             </div>
                         </div>
 

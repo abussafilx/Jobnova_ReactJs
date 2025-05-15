@@ -1,8 +1,8 @@
 import React,{useEffect, useState} from "react";
 import { Link, useLocation } from 'react-router-dom'
 import logoDark from "../assets/images/logoborabgwhite.png"
-import logoWhite from "../assets/images/logoborabgwhite.png"
-import logoLight from "../assets/images/logoborabgwhite.png"
+import logoWhite from "../assets/images/boradark.png"
+import logoLight from "../assets/images/boradark.png"
 import client from "../assets/images/team/01.jpg"
 import { LuSearch,FiUser,FiSettings,FiLock,FiLogOut } from "../assets/icons/vander";
 
