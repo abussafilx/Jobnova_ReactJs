@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { categoriesData } from "../data/data";
-
-import TinySlider from "tiny-slider-react";
 import 'tiny-slider/dist/tiny-slider.css';
 
 import { jobData } from "../data/data";
