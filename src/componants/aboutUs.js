@@ -52,7 +52,7 @@ export default function AboutUs({containerClass}){
                             </ul> */}
 
                             <div className="mt-4">
-                                <Link to="/aboutus" className="btn btn-primary">Conheça o BORA<i className="mdi mdi-arrow-right align-middle"></i></Link>
+                                <Link to="https://www.canva.com/design/DAGnhHcqmoI/njcLiQykd9ROBNkVKPUCfQ/view?utm_content=DAGnhHcqmoI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2e63c146f0" className="btn btn-primary">Conheça o BORA<i className="mdi mdi-arrow-right align-middle"></i></Link>
                             </div>
                         </div>
                     </div>
